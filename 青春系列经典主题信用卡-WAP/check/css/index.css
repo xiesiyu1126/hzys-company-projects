@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.card-div {
+    position: relative;
+    width: 100%;
+}
+
+.card-div .xize{
+    position: absolute;
+    width: 1.6rem;
+    height: .45rem;
+    top: .2rem;
+    left: 3rem;
+}
+
+.card-div .apply {
+    position: absolute;
+    width: 1.6rem;
+    height: .6rem;
+    border-radius: 0.1rem;
+}
+
+.card-div .card-link{
+    position: absolute;
+    width: 2.3rem;
+    height: .55rem;
+}
+
+.right {
+    right: 2rem;
+    top: 0.7rem;
+}
+
+.left {
+    left: 1.85rem;
+    top: 0.7rem;
+}
+.link-right{
+    right: 1.3rem;
+    top: 0.15rem;
+}
+.link-left{
+    left: 1.55rem;
+    top: .1rem;
+}
