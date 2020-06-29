@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* For IE */
+.crumb{font-size:14px;}
+header .head-top .logo{
+  width:233px;
+  height: 60px;
+}
+header .head-top .login{
+  margin-left:13px;
+}
+header .head-top .box-r{
+  margin-top:20px;
+}
+header .head-top .search input{
+  width:185px;
+  height:22px;
+}
+header .head-top .btn-mod{
+  width:51px;
+  height:22px;
+  font-size:14px;
+  line-height:22px;
+}
+header nav li a{
+  font-size:17px;
+}
+header nav li{
+  height:38px;
+  line-height:38px;
+}
+.kv section a img,.kv section>img{display:block;width:133.3333333%;}
+.kv section {
+  background: none!important;
+}
+.kv .subnav .content{
+  width: 205px;
+  padding:10% 40px 0;
+}
+.kv .subnav .content a{
+  width:45%;
+  font-size:16px;
+  margin-bottom:30px;
+}
+.kv .subnav .content img{
+  width:48px;
+  margin:0 auto;
+}
+
+.container{
+  width:1140px;
+}
+.container .content a p{
+  margin-top:10px;
+  font-size:16px;
+}
+.container img{
+  width:100%;
+  display:block;
+}
+.container .title {
+  padding:60px 0 15px;
+}
+.container .title h2{
+  font-size:26px;
+}
+.container .title a{
+  font-size: 17px;
+}
+.container .title h2:before, .container .title h2:after{
+  width:125px;
+}
+.cards .card-kv{
+  width:423px;
+  height:273px;
+}
+.cards .card-list{
+  width:717px;
+  height:273px;
+}
+.cards .card-list .item{
+  margin:0 0 55px 30px;
+}
+.cards .card-list .item .img{
+  width:175px;
+  height:110px;
+}
+.cards .card-list .info{
+  width:138px;
+  margin-left:190px;
+}
+.cards .card-list .info h3{
+  font-size: 16px;
+  line-height:18px;
+  height: 38px;
+  margin-bottom:2px;
+}
+.cards .card-list .info p{
+  font-size:14px;
+  line-height:16px;
+}
+.cards .card-list .info .btn{
+  width:112px;
+  height:30px;
+  margin-top:8px;
+  background-image: url(../images/home/cards-btn-ie.png);
+  background-repeat:no-repeat;
+}
+.events .col2{
+  width:555px;
+  height:590px;
+}
+.events .col2 .item{
+  margin-bottom:30px;
+}
+.events .col2 .item a p{
+  font-size:16px;
+  margin-top:10px;
+}
+
+.shop .content a{width:195px;height:300px;}
+.shop .content a.active{
+  width:555px;
+}
+.shop .content a p{
+  font-size:25px;
+  left:22px;
+  top: 50%;
+  margin-top: -70px;
+  height: 140px;
+  line-height:70px;
+}
+.jifen .content a{
+  width:262px;
+}
+.credit .content a{
+  width:315px;
+}
+.credit .content a.active{
+  width:450px;
+}
+.container .col2>.title h2{
+  font-size:22px;
+}
+.container .col2>.title h2:after{
+  width:390px;
+}
+.serve .col2{
+  width:545px;
+}
+.serve .col2 .news li a{padding:25px 4% 0; display:block; height:62px;}
+.serve .col2 .news li h3{
+  font-size:16px;
+}
+.serve .col2 .news li p{font-size:13px;}
+
+.serve .col2 .serve-con li{width:270px;height:116px;font-size:16px;line-height:116px;}
+.serve .col2 .serve-con li b{width:48px;height:47px;margin-right:15px}
+footer{font-size:17px;}
+footer>div{margin:30px 0;}
+
+.maps .mapbox{margin-bottom:30px;}
+.maps h2{height:26px;font-size:16px;margin-top:30px;}
+.maps h3{font-size:14px;margin:20px 0 0 0;}
+.maps h4{margin-top:15px;font-size:14px;}
+.maps ul li{
+  font-size:14px;
+  margin-top:10px;
+}
+
+/*index*/
+
+.indexbanner a {
+    background-size: 1280px;
+    height: 370px;
+}
+
+
+.swiper-container{height:415px;}
+.swiper-wrapper{height:415px;}
+.cardbfdiv .cardslist li .clistbtn{font-size:14px;height:24px;line-height:24px;width:100px;margin: 5px auto 0px auto;}
+.cardbfdiv .cardslist li .clisttl{font-size:16px;}
+.cardbfdiv .cardslist li .clistdesc{font-size:14px;line-height: 20px;width: 100%;}
+.cardbfdiv .cardslist li .clistmore{padding-top:2px;}
+.cardbfdiv .cardslist li .clistmore a{font-size: 12px;}
+.cardbfdiv.gwgwgw li  .clistdesc{width:230px;}
+
+.cardbfdiv .bimg{width:524px;}
+.cardbfdiv .cardslist{}
+.cardbfdiv .cardslist li{width:300px;}
+.cardbfdiv .cardslist li .cimgs{width:225px;margin:10px auto 5px auto;}
+.cardbfdiv .cardslist.pull-left li:first-child{margin-left:-38px;}
+.cardbfdiv .cardslist.pull-right li:last-child{margin-right:-38px;}
+
+.cardbfdiv .gwcardslist li{margin-bottom:32px;}
+
+
+.zy-Slide ul{ height:252px;}
+
+.zy-Slide li.center{width:340px;margin-left:-170px;}
+.zy-Slide li.left1{width:270px;left:15%;top:16px}
+.zy-Slide li.right1{width:270px;right:15%;top:16px}
+.zy-Slide li.left2{width:200px;top:38px}
+.zy-Slide li.right2{width:200px;top:38px}
+.jbkv p{text-align:center;font-size:14px;line-height:40px;}

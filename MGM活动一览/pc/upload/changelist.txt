@@ -1,0 +1,13 @@
+2020-06-29
+提交方：瀚智云思
+
+提交的目的：更新
+
+需求文件名：MGM活动一览_0629
+  
+新增列表：
+   
+    1.更新的页面：mgm.html、mgm_tc.html
+
+	2.更新的图片：将 images/activity_details/tuijianpcv1.jpg 替换为 images/activity_details/tuijian-pc.png
+
