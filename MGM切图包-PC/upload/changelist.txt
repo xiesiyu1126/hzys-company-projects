@@ -1,0 +1,17 @@
+2020-06-29
+提交方：瀚智云思
+
+提交的目的：更新
+
+需求文件名：MGM活动推荐-PC
+  
+新增列表：
+   
+    1.新增的页面：index.html、mgm_tc.html
+
+	2.新增的图片：将 images/index/*
+
+    2.新增的CSS：将 index.css
+
+    2.新增的JS：将 index.js
+
