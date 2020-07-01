@@ -27,13 +27,13 @@ img {
 }
 .tc-img .close{
     position: absolute;
-    color: skyblue;
-    /* background-color:rgba(0, 0, 0, 0.8); */
-    /* padding: 5px; */
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: 80px;
+    font-size: 50px;
+    padding: 0 15px;
+    border-radius: 10px;
+    right: 0;
 }
 
 .relative-div {
