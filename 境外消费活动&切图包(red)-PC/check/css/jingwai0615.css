@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.tuijianImg {
+	display: block;
+	width: 100%;
+}
+
+.content-link {
+	position: relative;
+}
+
+.content-link .content-main {
+	position: absolute;
+	width: 75%;
+	left: 15%;
+	top: 0;
+}
+
+.content-main img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+.content-link .content-left-title {
+	position: absolute;
+	width: 14%;
+	left: 36%;
+	top: 4.6%;
+}
+
+.content-link .content-right-title {
+	position: absolute;
+	width: 14%;
+	right: 32.5%;
+	top: 4.6%;
+}
+
+.content-link .content-shop {
+	position: absolute;
+	width: 15%;
+	right: 18.5%;
+	bottom: 39.6%;
+}
+
+.content-link .content-guanjia {
+	position: absolute;
+	width: 7%;
+	left: 49.2%;
+	bottom: 32.5%
+}
+
+.content-link .content-haitaoxize {
+	position: absolute;
+	width: 7%;
+	height: 4%;
+	right: 11.6%;
+	bottom: 27.3%;
+}
+
+.content-show1 {
+	display: none;
+}
+
+.content-link .content-main1 {
+	position: absolute;
+	width: 75%;
+	left: 15%;
+	top: 4%;
+}
+
+.content-main1 img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+.content-link .content-main1 {
+	position: absolute;
+	width: 75%;
+	left: 15%;
+	top: 0;
+}
+
+.content-link .content-jingwaixize {
+	position: absolute;
+	width: 7%;
+	height: 4%;
+	right: 11.6%;
+	bottom: 27.3%
+}
+
+.arrowEffect1 {
+	animation: arrowEffect1 1s infinite;
+}
+
+@keyframes arrowEffect1 {
+	0% {
+		transform: scale(0.9);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.9);
+	}
+}
+
+/* 弹窗部分 */
+.mask1 {
+	display: none;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+}
+
+.tips-content1 {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.tips-content1 .quanyi-tips {
+	width: 35%;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+}
+
+.tips-content1 .quanyi-tips .close {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: -2.3%;
+	top: -1.8%;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 0;
+}
+
+.left_hand {
+	width: 3%;
+	height: 3%;
+	position: absolute;
+	right: 38%;
+	top: 8%;
+}
+
+.left_hand .hand {
+	bottom: 90%;
+	left: 20%;
+	position: relative;
+}
+.right_hand {
+	width: 3%;
+	height: 3%;
+	position: absolute;
+	left: 38%;
+	top: 8%;
+}
+
+.right_hand .hand {
+	bottom: 90%;
+	left: 20%;
+	position: relative;
+}
