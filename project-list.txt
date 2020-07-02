@@ -13,3 +13,7 @@
 2020-07-01：MGM&切图包-PC
             境外消费活动&切图包(red)-PC (两套，一个默认红色， 一个默认蓝色  改：jingwaixxx.js+indexxxx.html中的 sessionCountName的值)
             境外消费活动&切图包(red)-WAP (同上)
+
+2020-07-02：途虎养车&切图包-WAP
+            途虎养车&切图包-PC+WAP
+            私人银行白金卡&切图包-WAP (又名：sybjk)
