@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+}
+
+#box {
+	width: 100%;
+}
+
+#box .top {
+	width: 100%;
+	position: relative;
+}
+
+#box .top img {
+	display: none;
+}
+
+.top .aaa a {
+	display: block;
+	width: 28%;
+	height: 20%;
+}
+
+.one {
+	position: absolute;
+	left: 6%;
+	top: 32%;
+}
+
+.two {
+	position: absolute;
+	left: 36%;
+	top: 32%;
+}
+
+.three {
+	position: absolute;
+	right: 6%;
+	top: 32%;
+}
+
+.four {
+	position: absolute;
+	left: 6%;
+	top: 60%;
+}
+
+.five {
+	position: absolute;
+	left: 36%;
+	top: 60%;
+}
+
+.six {
+	position: absolute;
+	right: 6%;
+	top: 60%;
+}
+
+#box .bottom {
+	width: 100%;
+	height: 100%;
+}
+
+#box .bottom div {
+	width: 100%;
+	display: none;
+}

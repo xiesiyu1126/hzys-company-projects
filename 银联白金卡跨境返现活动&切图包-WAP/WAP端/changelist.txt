@@ -1,0 +1,33 @@
+
+提交方：瀚智云思公司
+
+提交的目的：更新
+
+需求文件名：银联白金卡跨境返现活动
+  
+20200702新增或更新列表：
+   
+            1.更新的页面：rule.html
+
+			2.新增的页面：yinliantable_2.html
+
+			3.更新的images：baijin0430.jpg
+			
+			4.更新的css:table20200622.css
+
+已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
