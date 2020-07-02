@@ -1,0 +1,68 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			img{
+				width: 100%;
+			}
+			#box {
+				width: 100%;
+			}			
+			#box .top {
+				width: 100%;
+				position: relative;
+			}
+			#box .top img{
+				display: none;
+			}
+			.top .aaa a{
+				display: block;
+				width:48%;
+				height:92%;
+			}
+			.one{
+				position: absolute;
+				left:0; 
+				top:5%;
+			}
+			.two{
+				position: absolute;
+				right: 0%;
+				top: 5%;
+			}
+			.zhuanshu,.new,.banka{
+				position: relative;
+			}
+			.zhuanshuxize{
+				position: absolute;
+			    width: 20%;
+			    height: 5%;
+			    left: 40%;
+			    bottom: 5%;
+			}
+			.newxize{
+				position: absolute;
+			    width: 20%;
+			    height: 5%;
+			    left: 40%;
+			    bottom: 5%;
+			}
+			#box .bottom {
+				width: 100%;
+				height: 100%;
+			}
+			
+			#box .bottom div {
+				width: 100%;
+				display: none;
+			}
+			.redxize{
+				position: absolute;
+			    width: 31%;
+			    height: 28%;
+			    left: 35%;
+			    top: 19%;
+			}
+footer{
+	position: relative !important; 
+}

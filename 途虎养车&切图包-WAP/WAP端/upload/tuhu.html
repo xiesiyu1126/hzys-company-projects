@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="yes" name="apple-touch-fullscreen" />
+  <meta content="telephone=no,email=no" name="format-detection" />
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta charset="UTF-8">
+  <meta name="keywords" content="页面关键字" />
+  <meta name="description" content="页面描述" />
+  <title>途虎养车联名卡</title>
+
+  <!-- 买单吧分享 start-->
+  <meta name="native" content='[{"title":"分享","action":"share","para":{"title":"","desc":"","pageUrl":"","imageUrl":""}}]'>
+  <!--买单吧分享 end-->
+
+  <!--weixin分享 start-->
+  <meta name="wx-title" content=""/>
+  <meta name="wx-desc" content=""/>
+  <meta name="wx-img" content="">
+  <meta name="wx-link" content="">
+  <!--weixin分享 end-->
+
+  <!-- 框架 Css/Js 引用 -->
+  <link rel="stylesheet" href="/etc/designs/pccc_v2/resource/clientlibs/wap/css/reset.css">
+  <link rel="stylesheet" href="/etc/designs/pccc_v2/resource/clientlibs/wap/css/style.css">
+  <script src="/etc/designs/pccc_v2/resource/clientlibs/wap/js/libs/jquery/jquery-2.1.3.min.js"></script>
+
+  <script>
+  //该参数决定该页面属于导航栏中哪个模块的页面：01-首页；02-缤纷卡片；03-热门活动；04-分期信贷；05-信用卡申请；06-客户服务
+      var menuCode = '02';
+  </script>
+  <!-- pc-header-footer.js中包含页面头部header和footer的渲染、百度统计代码的引入、买单吧环境下header的隐藏及footer固定在页面底部的代码 --> 
+  <script src="/content/dam/phone/new/common/js/wap-header-footer.js"></script>
+
+
+  <!-- 自定义 Css 引用 -->
+  <link rel="stylesheet" type="text/css" href="css/tuhu0327.css"/>
+   <!-- end 自定义 Css 引用 --> 
+</head>
+
+<body>
+  <div id="wrapper">
+    <!-- Header -->
+    <header></header>
+    <!-- header end -->
+    <!-- 自定义Title代码，需自行添加title内容和返回链接（href） -->
+    <section class="top-title">
+      <a href="#" class="btn-back"></a>
+      <h1>途虎养车联名卡</h1>
+    </section>
+  
+    <!-- main 自定义页面主体内容-->
+		<div id="box">
+			<img src="images/tuhu0327_01.jpg"/>
+			<img src="images/tuhu0327_02.jpg"/>
+			<img src="images/tuhu0327_03.jpg" >   	
+			<div class="top">
+				<img src="images/tuhu0327_04.jpg" class="current" style="display: block;" />
+				<img src="images/tuhuv10327_04.jpg"/>
+				<div class="aaa">
+					<a class="one"></a>
+					<a class="two"></a>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="zhuanshu" style="display: block;">
+					<img src="images/tuhu0327_05.jpg"/>
+					<a href="zhuanshuxz.html" class="zhuanshuxize"></a>
+				</div>
+				<div class="new">
+					<img src="images/tuhuv10327_05.jpg"/>
+					<a href="newxz.html" class="newxize"></a>
+				</div>
+			</div>
+			<div class="banka">
+				<img src="images/tuhu0327_06.jpg"/>
+				<a href="https://creditcardapp.bankcomm.com/content/dam/phone/MBDX2020/NEW2020/rule.html" class="redxize"></a>
+			</div>
+		</div>
+
+    <!-- end main -->
+  
+
+    <!-- footer -->
+    <footer></footer>
+    <!-- footer end -->
+  </div>
+  
+  <!-- 框架用 Js 引用 -->
+  <script src="/etc/designs/pccc_v2/resource/clientlibs/wap/js/main.js"></script>
+  <script src="/etc/designs/pccc/shared/clientlibs/js/gzcj_02.js"></script>
+
+  <!-- 自定义 js 引用:需要微信分享时引入weixin-share.js  -->
+    <script src="/content/dam/phone/new/common/js/weixin-share.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      //footer固定在页面底部，此方法在公用js文件main.js中
+      update_footer();
+    })
+  </script>
+	<script src="js/tuhu.js"></script>
+
+  <!-- end 自定义 js 引用 -->
+</body>
+
+</html>
