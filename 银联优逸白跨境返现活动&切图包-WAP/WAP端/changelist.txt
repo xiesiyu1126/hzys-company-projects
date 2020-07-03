@@ -11,7 +11,7 @@
 			
 			2.新增的页面：yinliantable_2.html
 
-			3.更新的images：youyibai0430.jpg
+			3.更新的images：youyibai0430.jpg-->youyibai0703.jpg
 			
 			4.更新的css:table20200622.css
 
