@@ -8,16 +8,17 @@ img {
     display: block;
 }
 
-.tc-div{
+.tc-div {
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 200;
     display: none;
 }
-.tc-div .tc-img{
+
+.tc-div .tc-img {
     position: fixed;
     left: 35%;
     top: 15%;
@@ -25,7 +26,8 @@ img {
     height: 60%;
     opacity: 2;
 }
-.tc-img .close{
+
+.tc-img .close {
     position: absolute;
     color: black;
     background-color: rgba(0, 0, 0, 0.1);
@@ -54,7 +56,7 @@ img {
     width: 430px;
     height: 120px;
     left: 291px;
-    top: 18px;   
+    top: 18px;
 }
 
 .relative-div .right-tc {
@@ -63,6 +65,49 @@ img {
     height: 120px;
     right: 291px;
     top: 18px;
+}
+
+.relative-div .link-other {
+    position: absolute;
+    width: 925px;
+    height: 80px;
+    bottom: 50px;
+    left: 320px;
+
+}
+
+.relative-div .link-other-up {
+    position: absolute;
+    width: 925px;
+    height: 80px;
+    top: 17px;
+    left: 320px;
+}
+
+.relative-div .link-other-down {
+    position: absolute;
+    width: 925px;
+    height: 80px;
+    top: 157px;
+    left: 320px;
+}
+
+.relative-div .link-other-left{
+    position: absolute;
+    width: 484px;
+    height: 380px;
+    top: 6px;
+    left: 233px;
+    background-color: rgba(0, 0, 0, 0.8);  
+}
+
+.relative-div .link-other-right{
+    position: absolute;
+    width: 508px;
+    height: 380px;
+    top: 6px;
+    right: 239px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 1540px) {
@@ -90,6 +135,49 @@ img {
         right: 220px;
         top: 14px;
     }
+
+    .relative-div .link-other {
+        position: absolute;
+        width: 695px;
+        height: 50px;
+        bottom: 44px;
+        left: 240px;
+
+    }
+
+    .relative-div .link-other-up {
+        position: absolute;
+        width: 695px;
+        height: 50px;
+        top: 17px;
+        left: 240px;
+    }
+
+    .relative-div .link-other-down {
+        position: absolute;
+        width: 695px;
+        height: 50px;
+        top: 122px;
+        left: 240px;
+    }
+
+    .relative-div .link-other-left{
+        position: absolute;
+        width: 364px;
+        height: 284px;
+        top: 3px;
+        left: 175px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .relative-div .link-other-right{
+        position: absolute;
+        width: 384px;
+        height: 285px;
+        top: 3px;
+        right: 178px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }    
 }
 
 @media screen and (max-width: 1140px) {
@@ -116,6 +204,49 @@ img {
         right: 186px;
         top: 10px;
     }
+
+    .relative-div .link-other{
+        position: absolute;
+        width: 581px;
+        height: 50px;
+        bottom: 34px;
+        left: 205px;
+    
+    }
+    
+    .relative-div .link-other-up{
+        position: absolute;
+        width: 581px;
+        height: 50px;
+        top: 10px;
+        left: 205px;
+    }
+    .relative-div .link-other-down{
+        position: absolute;
+        width: 581px;
+        height: 50px;
+        top: 99px;
+        left: 205px;
+    }
+
+    .relative-div .link-other-left{
+        position: absolute;
+        width: 308px;
+        height: 240px;
+        top: 3px;
+        left: 146px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .relative-div .link-other-right{
+        position: absolute;
+        width: 324px;
+        height: 240px;
+        top: 3px;
+        right: 149px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }   
+
 
 
 }
