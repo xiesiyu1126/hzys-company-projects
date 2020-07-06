@@ -1,0 +1,79 @@
+2020-07-06
+
+提交方：瀚智云思
+
+提交的目的：新增
+
+需求文件名：征信授权及条款细则
+  
+新增列表：
+            1.新增的页面：xize.html
+                         page1-1.html
+                         page1-2.html
+                         page2.html
+                         page3.html
+                         page4.html
+                         page5.html
+                         page6.html
+                         page7.html
+                         page8.html
+                         page9.html
+                         page10.html
+                         page11.html
+                         page12.html
+                         page13.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

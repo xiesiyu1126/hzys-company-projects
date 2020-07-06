@@ -1,0 +1,26 @@
+.mob-tc p,
+.mob-tc ul li {
+    word-break: normal;
+    word-wrap: break-word;
+}
+
+.mob-tc ul li {
+    list-style: disc inside;
+    color: #333333;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    padding-bottom: 0.2rem;
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+}
+
+.mob-tc p {
+    color: #333333;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    padding-bottom: 0.2rem;
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+}

@@ -1,0 +1,40 @@
+ol li{
+	list-style:decimal;
+}
+.details{
+	padding:.5rem;
+	line-height:140%;
+}
+.content h2{
+	font-size:.36rem;
+	margin-bottom:.3rem;
+}
+.content h3{
+	margin-bottom:.1rem;
+	font-size:.32rem;
+}
+.content p{
+	margin-bottom:.1rem;
+	text-align: justify;
+	font-size:.28rem;
+}
+.content ol{
+	padding-left:.3rem;
+	text-align: justify;	
+}
+
+
+/*180621*/
+p,li{
+    word-wrap: break-word;
+    word-break: normal;		
+}
+.content p.time{ margin-bottom:0.35rem;}
+.weight{ font-weight:800;}
+.txt-notice{    
+    font-size: .24rem !important;
+    margin-top: 0.1rem;
+}
+.mt35{ margin-top:0.35rem;}
+.txt-h5{ font-weight:800; margin: 0.2rem 0 0.1rem 0;}
+.content h3.blue{ font-weight:800;}
