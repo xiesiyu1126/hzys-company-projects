@@ -8,11 +8,11 @@ $(function() {
 			let isHide=$("#page" + this.index).is(':visible') ;
 		
 			if(!isHide){
-				$(".page-div").slideup(2000);
-				$("#page" + this.index).slidedown();
+				$(".page-div").hide();
+				$("#page" + this.index).show();
 				$("#page" + this.index).load("page" + this.index + ".html #content")				
 			}else{
-				$("#page" + this.index).slideup(2000);
+				$("#page" + this.index).hide();
 			}
 
 		}
