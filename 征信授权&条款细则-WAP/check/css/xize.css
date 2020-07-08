@@ -24,3 +24,6 @@
     text-align-last: left;
     -moz-text-align-last: left;
 }
+.page-div{
+	display: none;
+}

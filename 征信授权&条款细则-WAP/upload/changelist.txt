@@ -8,8 +8,8 @@
   
 新增列表：
             1.新增的页面：xize.html
-                         page1-1.html
-                         page1-2.html
+                         page0.html
+                         page1.html
                          page2.html
                          page3.html
                          page4.html
@@ -22,7 +22,8 @@
                          page11.html
                          page12.html
                          page13.html
-
+            2.新增的CSS： xize.css
+            3.新增的js：  xize.js
 
 
 
