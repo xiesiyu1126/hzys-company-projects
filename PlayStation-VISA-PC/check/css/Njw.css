@@ -1,0 +1,119 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{ margin:0 0; padding:0 0;}
+/*font-color*/
+/*gray 灰*/
+.fc-3{ color:#333333;}
+.fc-6{ color:#666666;}
+.fc-72{color:#727272;}
+.fc-73{ color:#737373;}
+word-break: {break-all;}
+/*red*/
+.fc-ef3428{ color:#ef3428;}
+.fc-ee3124{ color:#ee3124;}
+/*blue*/
+.fc-013c7a{ color:#013c7a;}
+.fs-14{ font-size:14px;}
+.bggray{ background-color:#f0f4f6;}
+div,p{ word-break:normal !important;}
+.fl {
+	float: left;
+}
+.fr{ float:right;}
+body{font-family: "微软雅黑","宋体","Consolas","Courier New","Arial","Coruier","mono","serif";word-wrap:break-word;}
+body.bogdybg{background: #fafafa;}
+
+
+/*header*/
+/*#header{ background-color:#ffffff; width:100%;height:100px; position:relative; z-index:10;}*//*原背��?*/
+#header{ background-color:#ffffff; width:100%; position:relative; z-index:10;   }/*ˮӡ����*/
+/*20150120  lxm*/
+/*#logo { height:60px; overflow:hidden; background-color:#ffffff; width:950px; margin:0 auto; }
+#logo h1 { width:185px; height:60px; background:url(/content/dam/pc/images/bcms/activities/images/banklogo_v1.jpg) no-repeat left 0; }
+#logo h2 { width:150px; height:60px; background:url(/content/dam/pc/images/bcms/activities/images/banklogo_v1.jpg) no-repeat -205px 0; }
+
+#logo { height:63px; overflow:hidden; background-color:#ffffff; width:950px; margin:0 auto; }
+#logo h1 { width:185px; height:60px; background:url(/etc/designs/pccc/pc/clientlibs/themes/default/images/common/banklogo_v1.jpg) no-repeat left 4px;margin:0 0 0 1px ; }
+#logo h2 { width:150px; height:60px; background:url(/etc/designs/pccc/pc/clientlibs/themes/default/images/common/banklogo_v1.jpg) no-repeat -208px 2px; }
+*/
+#logo { height:60px; overflow:hidden; background-color:#ffffff; width:950px; margin:0 auto; }
+#logo h1 { width:250px; height:60px; background:url(../../images/common/banklogo_v1.jpg) no-repeat; }
+#logo h2 { width:130px; height:60px; background:url(../../images/common/banklogo_v1.jpg) no-repeat -305px; }
+
+
+/*footer 
+20150724
+#footbox { position:relative; height:107px;width:950px; margin:0 auto; background:url(/content/dam/pc/images/bcms/activities/images/legalline.gif) no-repeat center bottom;}
+*/
+#footer{ border-top:#efefef 1px solid; width:100%;padding-top:29px; font-size:12px; width:100%; margin:0 auto;background: #fafafa; }
+#footbox { position:relative; height:107px;width:950px; margin:0 auto;}
+
+/*2013-7-17*/
+#footbox .rcd{ position:absolute; width:442px; height:59px; right:0; top:-2px; background:url(../../images/common/banklogo.jpg) no-repeat 0 -60px;}
+#footbox .cpr i{ float:left; width:50px; height:60px; background:url(../../images/common/banklogo.jpg) no-repeat -337px 0; }
+#footbox .cpr div{ float:left; padding-left:14px; width:350px; line-height:20px;}
+#footbox .cpr .fc-013c7a a{ margin-right:8px; color:#013c7a; text-decoration:none;}
+/*logolink*/
+/* 20150120 lxm
+#logolink{ height:7px !important; background-color:#03357C; line-height:7px !important; font-size:0px;}
+*/
+#logolink{ height:24px !important; background-color:#5d96ed; line-height:7px !important; font-size:0px;}
+
+
+
+/*分割线*/
+#tc_border_1{ border-bottom:1px solid #d9d9d9; margin-top:25px}
+#tc_border_2{ border-bottom:1px solid #d9d9d9; margin:25px 0px}
+#tc_border_3{ border-bottom:1px solid #d9d9d9; margin-bottom:25px}
+#tc_border_4{ border-bottom:1px solid #d9d9d9;}
+
+.pccc_tc .highlight{ color:##fb603d;}/*重要字体标红*/
+
+.matter .weight{ font-weight:800;}/*重要字体加粗*/ 
+
+
+
+/*pccc_content*/
+#pccc_content{ width:950px; margin:0 auto; text-align:center; margin-top:20px; margin-bottom:29px; color:#333;}
+/*pccc_tc*/
+.pccc_tc{ border:1px #d9d9d9 solid; background-color:#fafafa; position:relative; color:#333;}
+.pccc_tc .lt_radio{ display:block;float:left; background:url(../images/pccc_cl.jpg) no-repeat; width:5px; height:5px;left:-1px;top:-1px; position:absolute;z-index:99px;_left:-475px;_top:0;}
+.pccc_tc .rt_radio{display:block;float:right;background:url(../images/pccc_cr.jpg) no-repeat; width:5px; height:5px;left:944px;top:-1px;position:absolute;z-index:99px; _left:470px;_top:0;}
+.pccc_tc .lt2{background:url(../images/pccc_cl_w.jpg) no-repeat;}
+.pccc_tc .rt2{background:url(../images/pccc_cr_w.jpg) no-repeat;}
+.pccc_tc .bottom_radio{display:block;background:url(../images/pccc_bottom.gif) no-repeat; width:960px; height:6px;left:-1px; bottom:-1px;position:absolute;_left:-475px;}
+.pccc_tc h1{ height:63px; line-height:63px; text-align:center; font-size:21px; font-weight:800}
+.pccc_tc h3{ color:#333;font-size:14px; font-weight:bold; line-height:26px; text-align:left}
+
+.pccc_tc h4{color:#636363;font-size:12px; font-weight:normal; line-height:25px; margin:15px 0; text-align:left; background-color:#EAEAEA; padding:15px 0 15px 180px;}
+.pccc_tc h5{ font-size:16px; color:#333; font-weight:bold;line-height:26px; text-align:left;}
+
+
+.pccc_tc .matter{ margin:0px 23px 0 21px; color:#333}
+
+
+.matter p{font-size:14px;  text-align:left; line-height:26px; margin:0 0 16px 0;}
+.matter ol{ list-style:decimal; }
+.matter ol li	{ margin:0 0 16px 23px; padding:0; line-height:26px; font-size:14px; text-align:left;} 
+.matter ol li p{ }
+.matter ul	{  }
+.matter ul li{ margin:0 0 20px 23px; padding:0; line-height:26px; font-size:14px; text-align:left;} 
+.matter ul li p{ padding:0 15px;}
+
+/*TC页面的表格*/
+.matter table{ margin:10px 0px 30px 0px; width:75%; border:1px solid #333;  border-collapse:collapse; }
+.matter table th{ font-weight:800;} 
+.matter table td,.matter table th{ line-height:26px; border:1px solid #333; padding:5px; font-size:14px; color:#333; text-align:center;}
+
+
+
+.matter table.pu_datalist{background-color:#CACBCF; margin:10px auto; border-collapse:collapse;border:1px solid #d4d4d4; font-size:12px;  }
+.matter table.pu_datalist th{background-color:#F5F6F8;color:#15375A;line-height:20px; padding:5px;text-align:center;border:1px solid #d4d4d4;}
+.matter .red{ color:#F00;}
+.matter table.pu_datalist td{background-color:#FFFFFF; line-height:20px; padding:5px;color:#666666;text-align:center;border:1px solid #d4d4d4; text-align:left;}
+.matter .citylist ul li{ float:left; display:block; width:50px;}
+.matter .citylist ul li a{ color:#000;}
+.alink{ color: #00F;}
+
+
+

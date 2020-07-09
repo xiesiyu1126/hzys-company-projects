@@ -1,0 +1,352 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	display: none;
+}
+
+header img {
+	display: block;
+}
+
+.lb-img-div {
+	position: relative;
+	width: 100%;
+}
+
+.lb-img-div #dh-img-01 {
+	position: absolute;
+	z-index: 200;
+	opacity: 1;
+}
+
+.lb-img-div #dh-img-02 {
+	position: absolute;
+	z-index: 100;
+	opacity: 1;
+}
+
+
+.bottom-div {
+	position: relative;
+	background-color: white;
+}
+
+.bottom-div #absolute-img {
+	position: absolute;
+	z-index: 300;
+	top: 784px;
+}
+
+.bottom-div #absolute-hidden {
+	position: relative;
+	height: 1180px;
+	width: 100%;
+}
+
+.bottom-div img {
+	position: relative;
+}
+
+.bottom-div .card-link-div {
+	position: relative;
+}
+
+.card-link-div .huoying {
+	position: absolute;
+	width: 360px;
+	height: 93px;
+	left: 283px;
+	bottom: 6px;
+}
+
+.card-link-div .aili {
+	position: absolute;
+	width: 321px;
+	height: 33px;
+	right: 248px;
+	bottom: 47px;
+}
+
+.card-link-div .bianlian {
+	position: absolute;
+	width: 467px;
+	height: 93px;
+	left: 243px;
+	bottom: 80px;
+}
+
+.card-link-div .wenshen {
+	position: absolute;
+	width: 360px;
+	height: 93px;
+	right: 283px;
+	bottom: 70px;
+}
+
+.card-link-div .left-card-apply {
+	position: absolute;
+	width: 555px;
+	height: 73px;
+	left: 484px;
+	top: 35px;
+}
+
+.card-link-div .left-xize {
+	position: absolute;
+	width: 85px;
+	height: 32px;
+	left: 719px;
+	bottom: 9px;
+}
+
+
+.video-div {
+	position: relative;
+	width: 54%;
+	top: 606px;
+	left: 23%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.ej-card-apply {
+	position: relative;
+}
+
+.ej-card-apply .card-apply {
+	position: absolute;
+	width: 327px;
+	height: 49px;
+	bottom: 8px;
+	left: 310px;
+}
+
+#bottom-lb img {
+	display: block;
+}
+
+#bottom-lb {
+	position: relative;
+	bottom: 482px;
+	height: 272px;
+	width: 50%;
+	left: 25.7%;
+	border: 1px solid white;
+	display: none;
+}
+
+.card-link-div #change-face {
+	position: absolute;
+	width: 380px;
+	z-index: 600;
+	top: -251px;
+	left: 262px;
+}
+
+#change-face img {
+	border-radius: 13px;
+}
+
+@media screen and (max-width: 1500px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 700px;
+		/* top: 1058px; */
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 884px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 1540px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 586px;
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 884px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+	.video-div {
+		position: relative;
+		width: 54%;
+		top: 455px;
+		left: 23%;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.card-link-div .huoying {
+		position: absolute;
+		width: 247px;
+		height: 66px;
+		left: 211px;
+		bottom: 3px;
+	}
+
+	.card-link-div .aili {
+		position: absolute;
+		width: 237px;
+		height: 41px;
+		right: 189px;
+		bottom: 24px;
+	}
+
+	.card-link-div .bianlian {
+		position: absolute;
+		width: 350px;
+		height: 72px;
+		left: 187px;
+		bottom: 58px;
+	}
+
+	.card-link-div .wenshen {
+		position: absolute;
+		width: 261px;
+		height: 72px;
+		right: 217px;
+		bottom: 51px;
+	}
+
+	.card-link-div .left-card-apply {
+		position: absolute;
+		width: 407px;
+		height: 43px;
+		left: 365px;
+		top: 34px;
+	}
+
+	.card-link-div .left-xize {
+		position: absolute;
+		width: 80px;
+		height: 19px;
+		left: 528px;
+		bottom: 8px;
+	}
+
+	#bottom-lb {
+		position: relative;
+		bottom: 362px;
+		height: 204px;
+		width: 50%;
+		left: 25.7%;
+		border: 1px solid white;
+	}
+
+	.card-link-div #change-face {
+		position: absolute;
+		width: 284px;
+		z-index: 600;
+		top: -187px;
+		left: 197px;
+
+	}
+}
+
+
+@media screen and (max-width: 1140px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 500px;
+		/* top: 1058px; */
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 750px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+	.video-div {
+		position: relative;
+		width: 54%;
+		top: 384px;
+		left: 23%;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.card-link-div .huoying {
+		position: absolute;
+		width: 237px;
+		height: 60px;
+		left: 178px;
+		bottom: 3px;
+	}
+
+	.card-link-div .aili {
+		position: absolute;
+		width: 237px;
+		height: 41px;
+		right: 146px;
+		bottom: 17px;
+
+	}
+
+	.card-link-div .bianlian {
+		position: absolute;
+		width: 290px;
+		height: 67px;
+		left: 157px;
+		bottom: 44px;
+	}
+
+	.card-link-div .wenshen {
+		position: absolute;
+		width: 237px;
+		height: 58px;
+		right: 163px;
+		bottom: 44px;
+	}
+
+	.card-link-div .left-card-apply {
+		position: absolute;
+		width: 347px;
+		height: 43px;
+		left: 305px;
+		top: 25px;
+
+	}
+
+	.card-link-div .left-xize {
+		position: absolute;
+		width: 66px;
+		height: 20px;
+		left: 449px;
+		bottom: 7px;
+	}
+
+	#bottom-lb {
+		position: relative;
+		bottom: 303px;
+		height: 172px;
+		width: 50%;
+		left: 25.7%;
+		border: 1px solid white;
+		display: none;
+	}
+
+	.card-link-div #change-face {
+		position: absolute;
+		width: 240px;
+		z-index: 600;
+		top: -158px;
+		left: 165px;
+	}
+}

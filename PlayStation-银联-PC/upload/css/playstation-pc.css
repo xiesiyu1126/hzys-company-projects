@@ -1,0 +1,333 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	display: none;
+}
+
+header img {
+	display: block;
+}
+
+.lb-img-div {
+	position: relative;
+	width: 100%;
+}
+
+.lb-img-div #dh-img-01 {
+	position: absolute;
+	z-index: 200;
+	opacity: 1;
+}
+
+.lb-img-div #dh-img-02 {
+	position: absolute;
+	z-index: 100;
+	opacity: 1;
+}
+
+
+.bottom-div {
+	position: relative;
+	background-color: white;
+}
+
+.bottom-div #absolute-img {
+	position: absolute;
+	z-index: 300;
+	top: 784px;
+}
+
+.bottom-div #absolute-hidden {
+	position: relative;
+	height: 1180px;
+	width: 100%;
+}
+
+.bottom-div img {
+	position: relative;
+}
+
+.bottom-div .card-link-div {
+	position: relative;
+}
+
+.card-link-div .huoying {
+	position: absolute;
+	width: 187px;
+	height: 46px;
+	left: 437px;
+	bottom: 11px;
+}
+
+
+.card-link-div .bianlian {
+	position: absolute;
+	width: 187px;
+	height: 46px;
+	left: 443px;
+	bottom: 43px;
+}
+
+.card-link-div .wenshen {
+	position: absolute;
+	width: 187px;
+	height: 46px;
+	right: 263px;
+	bottom: 43px;
+}
+
+.card-link-div .left-card-apply {
+	position: absolute;
+	width: 555px;
+	height: 73px;
+	left: 484px;
+	top: 25px;
+}
+
+.card-link-div .left-xize {
+	position: absolute;
+	width: 85px;
+	height: 32px;
+	left: 719px;
+	bottom: 9px;
+}
+
+
+.video-div {
+	position: relative;
+	width: 54%;
+	top: 606px;
+	left: 23%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.ej-card-apply {
+	position: relative;
+}
+
+.ej-card-apply .card-apply {
+	position: absolute;
+	width: 327px;
+	height: 49px;
+	bottom: 6px;
+	left: 310px;
+}
+
+#bottom-lb img {
+	display: block;
+}
+
+#bottom-lb {
+	position: relative;
+	bottom: 482px;
+	height: 272px;
+	width: 50%;
+	left: 25.7%;
+	border: 1px solid white;
+	display: none;
+}
+
+.card-link-div #change-face {
+	position: absolute;
+	width: 382px;
+	z-index: 600;
+	top: -248px;
+	left: 262px;
+}
+
+#change-face img {
+	border-radius: 13px;
+}
+
+@media screen and (max-width: 1500px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 700px;
+		/* top: 1058px; */
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 884px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 1540px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 589px;
+		/* top: 1058px; */
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 884px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+	.video-div {
+		position: relative;
+		width: 54%;
+		top: 455px;
+		left: 23%;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.card-link-div .huoying {
+		position: absolute;
+		width: 146px;
+		height: 35px;
+		left: 325px;
+		bottom: 6px;
+	}
+
+	.card-link-div .bianlian {
+		position: absolute;
+		width: 146px;
+		height: 35px;
+		left: 325px;
+		bottom: 28px;
+	}
+
+	.card-link-div .wenshen {
+		position: absolute;
+		width: 146px;
+		height: 35px;
+		right: 195px;
+		bottom: 28px;
+	}
+
+
+	.card-link-div .left-card-apply {
+		position: absolute;
+		width: 402px;
+		height: 46px;
+		left: 369px;
+		top: 25px;
+	}
+
+	.card-link-div .left-xize {
+		position: absolute;
+		width: 73px;
+		height: 22px;
+		left: 532px;
+		bottom: 6px;
+	}
+
+	#bottom-lb {
+		position: relative;
+		bottom: 362px;
+		height: 203px;
+		width: 50%;
+		left: 25.7%;
+		border: 1px solid white;
+
+	}
+
+	.card-link-div #change-face {
+		position: absolute;
+		width: 287px;
+		z-index: 600;
+		top: -184px;
+		left: 195px;
+	}
+}
+
+}
+
+
+@media screen and (max-width: 1140px) {
+	.bottom-div #absolute-img {
+		position: absolute;
+		z-index: 300;
+		top: 500px;
+		/* top: 1058px; */
+	}
+
+	.bottom-div #absolute-hidden {
+		position: relative;
+		height: 750px;
+		/* height: 1243px; */
+		width: 100%;
+	}
+
+	.video-div {
+		position: relative;
+		width: 54%;
+		top: 384px;
+		left: 23%;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.card-link-div .huoying {
+		position: absolute;
+		width: 237px;
+		height: 60px;
+		left: 178px;
+		bottom: 3px;
+	}
+
+	.card-link-div .bianlian {
+		position: absolute;
+		width: 120px;
+		height: 27px;
+		left: 280px;
+		bottom: 28px;
+	}
+
+	.card-link-div .wenshen {
+		position: absolute;
+		width: 120px;
+		height: 27px;
+		right: 167px;
+		bottom: 28px;
+	}
+
+
+	.card-link-div .left-card-apply {
+		position: absolute;
+		width: 342px;
+		height: 46px;
+		left: 309px;
+		top: 16px;
+	}
+
+	.card-link-div .left-xize {
+		position: absolute;
+		width: 73px;
+		height: 22px;
+		left: 442px;
+		bottom: 6px;
+	}
+
+	#bottom-lb {
+		position: relative;
+		bottom: 305px;
+		height: 172px;
+		width: 50%;
+		left: 25.7%;
+		border: 1px solid white;
+	}
+
+	.card-link-div #change-face {
+		position: absolute;
+		width: 242px;
+		z-index: 600;
+		top: -156px;
+		left: 165px;
+	}
+
+}
