@@ -7,19 +7,12 @@
   
 20200617新增或更新列表：
    
-            1.新增的页面：bianlian.html、wenshen.html
 			
-			2.更新的页面：huoying.html、index.html、jhxize.html
+			1.更新的页面：index.html
 			
-			3.新增的images:	upload/imgages/*
-			
-			4.新增的css：fakeLoader.min.css、video-js.min.css
-			
-			5.更新的css：playstation0617.css
-			
-			6.新增的js:fakeLoader.min.js、video-js.min.js、loadImg.js
-			
-			7.更新的视频：visa.mp4
+			2.新增的images:	upload/imgages/card/*
+						
+			3.更新的css：playstation0617.css		
 			
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
 
