@@ -1,20 +1,30 @@
 $(function() {
-	let h3TagAry = document.getElementsByTagName("h3");
+	
+	let pageAry=document.getElementsByClassName("page-div");
+	for (let i = 0; i < pageAry.length; i++) {
+		$("#page_"+i).load("page_"+i+".html #content");			
+	}
+	let tagAry = document.getElementsByClassName("link-a");
 
-	for (let i = 0; i < h3TagAry.length; i++) {
-		h3TagAry[i].index = i;
-		h3TagAry[i].onclick = function() {
-			//判断当前目录是否显示
-			let isHide=$("#page" + this.index).is(':visible') ;
-		
-			if(!isHide){
-				$(".page-div").hide();
-				$("#page" + this.index).show();
-				$("#page" + this.index).load("page" + this.index + ".html #content")				
-			}else{
-				$("#page" + this.index).hide();
-			}
-
+	for (let i = 0; i < tagAry.length; i++) {
+		tagAry[i].index = i;
+		tagAry[i].onclick = function() {
+			var name = "page_" + this.index;
+			var cur = document.getElementById(name)
+			getPosition(cur);
 		}
+	}
+
+
+	function getPosition(e) {
+		var t = e.offsetTop;
+		var l = e.offsetLeft;
+		while (e = e.offsetParent) {
+			t += e.offsetTop;
+			l += e.offsetLeft;
+		}
+		$("html,body").animate({
+			scrollTop: t
+		}, 300);
 	}
 })

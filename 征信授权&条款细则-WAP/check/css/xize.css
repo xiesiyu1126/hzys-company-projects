@@ -1,29 +1,44 @@
+.mob-tc h4 {
+	font-size: 0.33rem;
+	line-height: 0.5rem;
+	padding: 0.2rem 0 0.05rem 0;
+	font-weight: bold;
+	text-align: center;
+}
+.mob-tc a{
+    text-decoration:none
+}
+.mob-tc .black-a{
+	color: black;
+}
 .mob-tc p,
 .mob-tc ul li {
-    word-break: normal;
-    word-wrap: break-word;
+	word-break: normal;
+	word-wrap: break-word;
 }
 
 .mob-tc ul li {
-    list-style: disc inside;
-    color: #333333;
-    font-size: 0.3rem;
-    line-height: 0.48rem;
-    padding-bottom: 0.2rem;
-    text-align: justify;
-    text-align-last: left;
-    -moz-text-align-last: left;
+	list-style: disc inside;
+	color: #333333;
+	font-size: 0.3rem;
+	line-height: 0.48rem;
+	padding-bottom: 0.2rem;
+	text-align: justify;
+	text-align-last: left;
+	-moz-text-align-last: left;
 }
 
 .mob-tc p {
-    color: #333333;
-    font-size: 0.3rem;
-    line-height: 0.48rem;
-    padding-bottom: 0.2rem;
-    text-align: justify;
-    text-align-last: left;
-    -moz-text-align-last: left;
+	color: #333333;
+	font-size: 0.3rem;
+	line-height: 0.48rem;
+	padding-bottom: 0.2rem;
+	text-align: justify;
+	text-align-last: left;
+	-moz-text-align-last: left;
 }
-.page-div{
-	display: none;
-}
+
+/* .page-div {
+	position: relative;
+	display: display;
+} */
