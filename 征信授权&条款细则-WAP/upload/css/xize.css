@@ -5,6 +5,10 @@
 	font-weight: bold;
 	text-align: center;
 }
+
+.mob-tc h3 {
+	padding: 0;
+}
 .mob-tc a{
     text-decoration:none
 }

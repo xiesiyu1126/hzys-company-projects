@@ -2,7 +2,7 @@ $(function() {
 	
 	let pageAry=document.getElementsByClassName("page-div");
 	for (let i = 0; i < pageAry.length; i++) {
-		$("#page_"+i).load("page_"+i+".html #content");			
+		$("#page_"+i).load("page"+i+".html #content");			
 	}
 	let tagAry = document.getElementsByClassName("link-a");
 

@@ -8,19 +8,21 @@
   
 新增列表：
             1.新增的页面：xize.html
-                         page_0.html
-                         page_1.html
-                         page_2.html
-                         page_3.html
-                         page_4.html
-                         page_5.html
-                         page_6.html
-                         page_7.html
-                         page_8.html
-                         page_9.html
-                         page_10.html
-                         page_11.html
-                         page_12.html
+                         page0.html
+                         page1.html
+                         page2.html
+                         page3.html
+                         page4.html
+                         page5.html
+                         page6.html
+                         page7.html
+                         page8.html
+                         page9.html
+                         page10.html
+                         page11.html
+                         page12.html
+                         page13.html
+                         page14.html
             2.新增的CSS： xize.css
             3.新增的js：  xize.js
 			4.新增的img：images/page/page5.png
