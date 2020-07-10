@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    /* margin-top: -.02rem; */
+	border: none;
+}
+
+.relative-div {
+    position: relative;
+    width: 100%;
+}
+
+.relative-div .left-a {
+    position: absolute;
+    width: 2.6rem;
+    height: 1rem;
+    left: .98rem;
+    top: .2rem;
+    transform: skewX(-20deg);
+}
+
+.relative-div .right-a {
+    position: absolute;
+    width: 2.6rem;
+    height: 1rem;
+    right: .98rem;
+    top: .2rem;
+    transform: skewX(-20deg);
+}
+
+.relative-div .xize {
+    position: absolute;
+    width: 1.1rem;
+    height: .3rem;
+    right: .87rem;
+    top: 1.44rem;
+}
+
+.table-btn {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    height: .6rem;
+    border-radius: .2rem;
+    color: white;
+    line-height: .7rem;
+    text-align: center;
+	color: gray;
+}
+#line-div{
+    position: relative;
+    width: 1%;    
+    background-color: white;
+}
+#wsd {
+    position: absolute;
+    width: 49.5%;
+	height: .7rem;
+}
+
+#visa {
+    position: absolute;
+    width: 49.5%;
+	height: .7rem;
+	right: 0;
+}
+#page2{
+	display: none;
+}
