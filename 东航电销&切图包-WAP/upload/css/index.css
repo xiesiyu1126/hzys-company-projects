@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
 	height: 100%;
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -26,18 +28,7 @@ img {
 	border-radius: .1rem;
 }
 
-h1{
-	background:#FFFFFF;
-	-webkit-background-clip: text;
-	background-size: contain;
-	width: 100%;
-	text-align: center;
-	color: rgba(217,226,233,.8);
-	font-weight: 900;
-	font-size: .28rem;
-	line-height: .75rem;
-	text-shadow: 1px 1px 3px rgba(0,0,0,.8);
-}
+
 
 @keyframes shine {
 	0% {
@@ -51,7 +42,7 @@ h1{
 
 .relative-div .left-btn {
 	position: absolute;
-	width: 3rem;
+	width: 3.02rem;
 	height: .75rem;
 	left: .45rem;
 	top: .14rem;
@@ -59,24 +50,48 @@ h1{
 
 .relative-div .right-btn {
 	position: absolute;
-	width: 3rem;
+	width: 3.02rem;
 	height: .75rem;
-	right: .47rem;
+	right: .45rem;
 	top: .14rem;
 }
 
- h1:before {
+h1 {
+	background: linear-gradient(-45deg, rgba(255, 255, 255, .7) 45%, rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, .8) 100%);
+	-webkit-background-clip: text;
+	-o-background-clip: text;
+	background-clip: text;
+	background-size: contain;
+	width: 100%;
+	text-align: center;
+	color: transparent;
+	font-weight: 900;
+	font-size: .28rem;
+	line-height: .75rem;
+
+	/* color: #E50110; */
+}
+
+
+
+h1:before {
 	content: attr(data-heading);
 	position: absolute;
-	left: 0;
+	left: 0.01rem;
 	top: 0;
 	width: 100%;
 	background: linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	background: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
 	-webkit-background-clip: text;
+	-o-background-clip: text;
+	background-clip: text;
 	color: transparent;
 	mix-blend-mode: screen;
-	
 	animation: shine 2s reverse;
 	animation-iteration-count: infinite;
 	background-size: 200%;
+	letter-spacing: 0.001rem;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px rgba(0, 0, 220, .8);
 }
