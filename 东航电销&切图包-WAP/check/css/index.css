@@ -73,101 +73,101 @@ img {
 
 
 
-html,
-body {
-	height: 100%;
-	background-color: #092962;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-img {
-	width: 100%;
-	display: block;
-	margin-top: -.02rem;
-}
-
-.relative-div {
-	position: relative;
-	width: 100%;
-}
-
-.relative-div .download {
-	position: absolute;
-	width: 1.5rem;
-	height: .55rem;
-	right: 0.68rem;
-	top: 0.1rem;
-	border-radius: .1rem;
-}
-
-
-
-@keyframes shine {
-	0% {
-		background-position: -100%;
-	}
-
-	100% {
-		background-position: 100%;
-	}
-}
-
-.relative-div .left-btn {
-	position: absolute;
-	width: 3.02rem;
-	height: .75rem;
-	left: .45rem;
-	top: .14rem;
-}
-
-.relative-div .right-btn {
-	position: absolute;
-	width: 3.02rem;
-	height: .75rem;
-	right: .45rem;
-	top: .14rem;
-}
-
-h1 {
-	background: linear-gradient(-45deg, rgba(255, 255, 255, .7) 45%, rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, .8) 100%);
-	-webkit-background-clip: text;
-	-o-background-clip: text;
-	background-clip: text;
-	background-size: contain;
-	width: 100%;
-	text-align: center;
-	color:transparent;
-	font-weight: 900;
-	font-size: .28rem;
-	line-height: .75rem;
-
-	/* color: #E50110; */
-}
-
-
-
-h1:before {
-	content: attr(data-heading);
-	position: absolute;
-	left: 0.01rem;
-	top: 0;
-	width: 100%;
-	background: linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);	
-	background: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
-	-webkit-background-clip: text;
-	-o-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	mix-blend-mode: screen;
-	animation: shine 2s reverse;
-	animation-iteration-count: infinite;
-	background-size: 200%;
-	letter-spacing: 0.001rem;
-	font-weight: bold;
-	text-shadow: 0px 0px 3px rgba(0, 0, 220, .8);
-}
+ html,
+ body {
+	 height: 100%;
+	 background-color: #092962;	
+ }
+ 
+ * {
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+ img {
+	 width: 100%;
+	 display: block;
+	 margin-top: -.02rem;
+ }
+ 
+ .relative-div {
+	 position: relative;
+	 width: 100%;
+ }
+ 
+ .relative-div .download {
+	 position: absolute;
+	 width: 1.5rem;
+	 height: .55rem;
+	 right: 0.68rem;
+	 top: 0.1rem;
+	 border-radius: .1rem;
+ }
+ 
+ 
+ 
+ @keyframes shine {
+	 0% {
+		 background-position: -100%;
+	 }
+ 
+	 100% {
+		 background-position: 100%;
+	 }
+ }
+ 
+ .relative-div .left-btn {
+	 position: absolute;
+	 width: 3.02rem;
+	 height: .75rem;
+	 left: .45rem;
+	 top: .14rem;
+ }
+ 
+ .relative-div .right-btn {
+	 position: absolute;
+	 width: 3.02rem;
+	 height: .75rem;
+	 right: .45rem;
+	 top: .14rem;
+ }
+ 
+ h1 {
+	 background: linear-gradient(-45deg, rgba(255, 255, 255, .7) 45%, rgba(255, 255, 255, .6) 50%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, .8) 100%);
+	 -webkit-background-clip: text;
+	 -o-background-clip: text;
+	 background-clip: text;
+	 background-size: contain;
+	 width: 100%;
+	 text-align: center;
+	 color: transparent;
+	 font-weight: 900;
+	 font-size: .28rem;
+	 line-height: .75rem;
+ 
+	 /* color: #E50110; */
+ }
+ 
+ 
+ 
+ h1:before {
+	 content: attr(data-heading);
+	 position: absolute;
+	 left: 0.01rem;
+	 top: 0;
+	 width: 100%;
+	 background: linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	 background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	 background: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0) 100%);
+	 -webkit-background-clip: text;
+	 -o-background-clip: text;
+	 background-clip: text;
+	 color: transparent;
+	 mix-blend-mode: screen;
+	 animation: shine 2s reverse;
+	 animation-iteration-count: infinite;
+	 background-size: 200%;
+	 letter-spacing: 0.001rem;
+	 font-weight: bold;
+	 text-shadow: 0px 0px 3px rgba(0, 0, 220, .8);
+ }
