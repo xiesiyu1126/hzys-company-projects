@@ -1,9 +1,9 @@
 $(function() {
 	
-	let pageAry=document.getElementsByClassName("page-div");
-	for (let i = 0; i < pageAry.length; i++) {
-		$("#page_"+i).load("page_"+i+".html #content");			
-	}
+	// let pageAry=document.getElementsByClassName("page-div");
+	// for (let i = 0; i < pageAry.length; i++) {
+	// 	$("#page_"+i).load("page_"+i+".html #content");			
+	// }
 	let tagAry = document.getElementsByClassName("link-a");
 
 	for (let i = 0; i < tagAry.length; i++) {
