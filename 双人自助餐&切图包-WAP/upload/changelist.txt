@@ -1,37 +1,9 @@
 
-Ìá½»·½£ºXX¹«Ë¾
+æäº¤æ–¹ï¼šç€šæ™ºäº‘æ€
 
-Ìá½»µÄÄ¿µÄ£ºÐÂÔö/¸üÐÂ
+æäº¤çš„ç›®çš„ï¼šæ–°å¢ž
 
-ÐèÇóÎÄ¼þÃû£º
+éœ€æ±‚æ–‡ä»¶åï¼šåŒäººè‡ªåŠ©é¤åˆ‡å›¾åŒ…
   
-20190XXXÐÂÔö»ò¸üÐÂÁÐ±í£º
-   
-            1.¸üÐÂµÄÒ³Ãæ£ºXX.html
-
-            2.ÐÂÔöµÄcss£ºXX.css£¨Ìæ»»Ô­XX.css£©
-		
-	    3.¸üÐÂµÄjs£ºXX.js
-
-	    4.¸üÐÂµÄimage£ºXX.png
-
-
-ÒÑ²âÊÔÉè±¸£º »ªÎªÈÙÒ«8¡¢Ð¡Ã×¡¢OPPO¡¢iphone6s¡¢iphone 8P¡¢iphone X
-
-
-
-2019XXXXÐÂÔö»ò¸üÐÂÁÐ±í£º
-
-ÒÑ²âÊÔÉè±¸£º 
-
-
-
-
-
-
-
-
-
-
-
-
+2020-07-14 æ–°å¢žåˆ—è¡¨ï¼š
+            1.ä¿®æ”¹çš„é¡µé¢ï¼šxize.html

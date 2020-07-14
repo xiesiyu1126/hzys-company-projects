@@ -1,6 +1,6 @@
 $(function () {
-    $("#page1").load("wsd-xize.html #content");
-    $("#page2").load("visa-xize.html #content");
+    // $("#page1").load("wsd-xize.html #content");
+    // $("#page2").load("visa-xize.html #content");
 	$("#visa-img").hide();
     $("#wsd").click(function () {
         $("#page2").hide();
