@@ -14,4 +14,8 @@ $(function () {
         }
     }
 
+    $("#lixiang").click(function () {
+        window.location.href = "https://www.lixiang.com/?chjchannelcode=128003";
+    })
+
 })
