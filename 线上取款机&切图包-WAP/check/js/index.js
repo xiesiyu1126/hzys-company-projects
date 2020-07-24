@@ -1,7 +1,4 @@
 $(function () {
-
-    $("#tanchuang").hide();
-
     $("#close").click(function () {
         $("#tanchuang").hide();
     });
