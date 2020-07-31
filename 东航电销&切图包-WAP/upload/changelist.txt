@@ -5,8 +5,9 @@
 
 需求文件名：东航电销渠道推广活动
   
-20200713新增：   
+2020-07-31新增：   
             1.更新的页面：index.html
+            2.更新的图片：index_05.jpg 替换成 index_05_0731.jpg
 
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
 
