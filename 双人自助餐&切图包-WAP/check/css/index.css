@@ -12,7 +12,7 @@ img {
     width: 100%;
     display: block;
     /* margin-top: -.02rem; */
-	border: none;
+    border: none;
 }
 
 .relative-div {
@@ -38,6 +38,14 @@ img {
     transform: skewX(-20deg);
 }
 
+.relative-div .hotel-list {
+    position: absolute;
+    width: 1.1rem;
+    height: .3rem;
+    left: 1.23rem;
+    top: 1.44rem;
+}
+
 .relative-div .xize {
     position: absolute;
     width: 1.1rem;
@@ -55,25 +63,28 @@ img {
     color: white;
     line-height: .7rem;
     text-align: center;
-	color: gray;
+    color: gray;
 }
-#line-div{
+
+#line-div {
     position: relative;
-    width: 1%;    
+    width: 1%;
     background-color: white;
 }
+
 #wsd {
     position: absolute;
     width: 49.5%;
-	height: .7rem;
+    height: .7rem;
 }
 
 #visa {
     position: absolute;
     width: 49.5%;
-	height: .7rem;
-	right: 0;
+    height: .7rem;
+    right: 0;
 }
-#page2{
-	display: none;
+
+#page2 {
+    display: none;
 }
