@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.relative-div{
+    position: relative;
+    width: 100%;
+}
+.relative-div .apply-card{
+    position: absolute;
+    width: 296px;
+    height: 79px;
+    left: 620px;
+    top: 13px;
+    border-radius: 40px;
+}
+.relative-div .xize01{
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 712px;
+    bottom: 70px;
+}
+.relative-div .xize{
+    position: absolute;
+    width: 92px;
+    height: 31px;
+    left: 712px;
+    bottom: 74px;
+}
+.relative-div .more-card{
+    position: absolute;
+    width: 296px;
+    height: 79px;
+    left: 620px;
+    bottom: 61px;
+    border-radius: 40px;
+}
+
+.relative-div .go-apply{
+    position: absolute;
+    width: 197px;
+    height: 71px;
+    right: 415px;
+    bottom: 39px;
+    border-radius: 40px;
+}
+.relative-div .detail{
+    position: absolute;
+    width: 73px;
+    height: 28px;
+}
+.relative-div .detail-01{
+    right: 715px;
+    top: 110px;
+}
+.relative-div .detail-02{
+    right: 715px;
+    top: 179px;
+}
+.relative-div .detail-03{
+    right: 629px;
+    top: 104px;
+}
+.relative-div .detail-04{
+    right: 598px;
+    top: 105px;
+}
+.relative-div .detail-05{
+    right: 672px;
+    top: 100px;
+}
+.relative-div .detail-06{
+    right: 714px;
+    top: 169px;
+}
+@media screen and (max-width: 1540px) {
+
+    .relative-div .apply-card{
+        position: absolute;
+        width: 219px;
+        height: 58px;
+        left: 467px;
+        top: 10px;
+        border-radius: 40px;
+    }
+    .relative-div .xize01{
+        position: absolute;
+        width: 72px;
+        height: 26px;
+        left: 532px;
+        bottom: 52px;
+    }
+    .relative-div .xize{
+        position: absolute;
+        width: 72px;
+        height: 26px;
+        left: 532px;
+        bottom: 54px;
+    }
+    
+    .relative-div .more-card{
+        position: absolute;
+        width: 219px;
+        height: 58px;
+        left: 467px;
+        bottom: 46px;
+        border-radius: 40px;
+    }
+    .relative-div .go-apply{
+        position: absolute;
+        width: 147px;
+        height: 54px;
+        right: 312px;
+        bottom: 29px;
+        border-radius: 40px;
+    }
+    .relative-div .detail{
+        position: absolute;
+        width: 51px;
+        height: 22px;
+    }
+    .relative-div .detail-01{
+        right: 537px;
+        top: 83px;
+    }
+    .relative-div .detail-02{
+        right: 537px;
+        top: 132px;
+    }
+    .relative-div .detail-03{
+        right: 475px;
+        top: 78px;
+    }
+    .relative-div .detail-04{
+        right: 450px;
+        top: 79px;
+    }
+    .relative-div .detail-05{
+        right: 507px;
+        top: 74px;
+    }
+    .relative-div .detail-06{
+        right: 537px;
+        top: 126px;
+    }   
+}
+
+@media screen and (max-width: 1140px) {
+
+    .relative-div .apply-card{
+        position: absolute;
+        width: 185px;
+        height: 49px;
+        left: 393px;
+        top: 8px;
+        border-radius: 40px;
+    }
+    .relative-div .xize01{
+        position: absolute;
+        width: 64px;
+        height: 20px;
+        left: 448px;
+        bottom: 44px;
+    }
+    .relative-div .xize{
+        position: absolute;
+        width: 64px;
+        height: 20px;
+        left: 448px;
+        bottom: 49px;
+    }
+    
+    .relative-div .more-card{
+        position: absolute;
+        width: 185px;
+        height: 49px;
+        left: 393px;
+        bottom: 39px;
+        border-radius: 40px;
+    }
+
+    .relative-div .go-apply{
+        position: absolute;
+        width: 126px;
+        height: 44px;
+        right: 261px;
+        bottom: 25px;
+        border-radius: 40px;
+    }
+    .relative-div .detail{
+        position: absolute;
+        width: 45px;
+        height: 19px;
+    }
+    .relative-div .detail-01{
+        right: 450px;
+        top: 69px;
+    }
+    .relative-div .detail-02{
+        right: 450px;
+        top: 112px;
+    }
+    .relative-div .detail-03{
+        right: 399px;
+        top: 65px;
+    }
+    .relative-div .detail-04{
+        right: 379px;
+        top: 66px;
+    }
+    .relative-div .detail-05{
+        right: 425px;
+        top: 61px;
+    }
+    .relative-div .detail-06{
+        right: 451px;
+        top: 106px;
+    }
+}
