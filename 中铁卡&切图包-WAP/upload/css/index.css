@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden;    
 }
 
 * {
@@ -50,60 +50,6 @@ img {
     height: .33rem;
     left: 3.3rem;
     bottom: .62rem;
-}
-
-.relative-div .more-card {
-    position: absolute;
-    width: 3.28rem;
-    height: .85rem;
-    left: 2.12rem;
-    top: .18rem;
-    border-radius: .12rem;
-}
-
-.relative-div .go-apply {
-    position: absolute;
-    width: 1.62rem;
-    height: .57rem;
-    right: .89rem;
-    bottom: 0.3rem;
-    border-radius: .3rem;
-}
-
-.relative-div .detail {
-    position: absolute;
-    width: 0.62rem;
-    height: .2rem;
-}
-
-.detail-01 {
-    right: 2.82rem;
-    top: .9rem;
-}
-
-.detail-02 {
-    right: 3.46rem;
-    top: 1.47rem;
-}
-
-.detail-03 {
-    right: 2rem;
-    top: .95rem;
-}
-
-.detail-04 {
-    right: 2.3rem;
-    top: .94rem;
-}
-
-.detail-05 {
-    right: 2.4rem;
-    top: .9rem;
-}
-
-.detail-06 {
-    right: 3.45rem;
-    top: 1.47rem;
 }
 
 table {
