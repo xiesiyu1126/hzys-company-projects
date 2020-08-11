@@ -7,7 +7,7 @@
   
 2020-08-04新增列表：
    
-            1.新增的页面：html.html、cards.html、xize.html
+            1.新增的页面：html.html、cards.html、xize.html、xize_7.html、xize_walMart.html、xize_weHotel.html
 
             2.新增的css：index.css、xize.css
 
