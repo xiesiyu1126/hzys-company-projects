@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border: none;
+    margin-top: -0.02rem;
+}
+
+.relative-div {
+    position: relative;
+    width: 100%;
+}
+
+.relative-div .apply {
+    position: absolute;
+    width: 4.3rem;
+    height: .87rem;
+    left: 1.52rem;
+    top: .45rem;
+    border-radius: 0 .3rem;
+}
+
+
+.relative-div .xize {
+    position: absolute;
+    width: .91rem;
+    height: .35rem;
+    left: 3.2rem;
+    bottom: 1rem;
+}
