@@ -22,38 +22,38 @@ img {
 
 .relative-div .huodong {
     position: absolute;
-    width: 2rem;
-    height: .45rem;
-    right: -.2rem;
-    bottom: .1rem;
-    transform: skewX(-20deg);
+    width: 1.6rem;
+    height: .42rem;
+    right: 0rem;
+    bottom: .09rem;
+    border-radius: .3rem 0 0 .3rem;
 }
 
 .relative-div .lingqu {
     position: absolute;
-    width: 1.65rem;
-    height: .46rem;
-    left: 1.02rem;
-    bottom: .54rem;
-    border-radius: .23rem;
+    width: 1.92rem;
+    height: .56rem;
+    left: .84rem;
+    bottom: .64rem;
+    border-radius: 0 .23rem;
 }
 
 .relative-div .choujiang {
     position: absolute;
-    width: 1.65rem;
-    height: .47rem;
-    left: 1.02rem;
-    bottom: .62rem;
-    border-radius: .2rem;
+    width: 1.92rem;
+    height: .56rem;
+    left: .84rem;
+    bottom: .7rem;
+    border-radius: 0 .23rem;
 }
 
 .relative-div #fenqi {
     position: absolute;
-    width: 2.7rem;
-    height: .65rem;
-    left: 2.4rem;
-    top: .81rem;
-    border-radius: .3rem;
+    width: 2.4rem;
+    height: .6rem;
+    left: 2.55rem;
+    top: .94rem;
+    border-radius: .1rem;
 }
 
 
@@ -63,49 +63,4 @@ img {
     height: .4rem;
     left: 3.2rem;
     bottom: .24rem;
-}
-
-#tanchuang {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.8);
-}
-
-#tanchuang .tc-img {
-    margin: 0 auto;
-    /*水平居中*/
-    position: relative;
-    top: 50%;
-    /*偏移*/
-    transform: translateY(-50%);
-}
-
-#tanchuang #close {
-    position: absolute;
-    right: .66rem;
-    height: .5rem;
-    width: .5rem;
-    top: .9rem;
-    z-index: 1;
-}
-
-#tanchuang #left-btn {
-    position: absolute;
-    left: .6rem;
-    width: 2.85rem;
-    height: .8rem;
-    bottom: 2.25rem;
-    border-radius: .4rem;
-}
-
-#tanchuang #right-btn {
-    position: absolute;
-    right: .6rem;
-    width: 2.85rem;
-    height: .8rem;
-    bottom: 2.25rem;
-    border-radius: .4rem;
 }
