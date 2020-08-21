@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+.relative-div {
+    position: relative;
+    width: 100%;
+}
+
+
+.relative-div .lingqu {
+    position: absolute;
+    width: 4.83rem;
+    height: .9rem;
+    left: 1.3rem;
+    bottom: .2rem;
+    border-radius: .4rem;
+}
+
+.relative-div .xize {
+    position: absolute;
+    width: 1.3rem;
+    height: .4rem;
+    right: .73rem;
+    bottom: .27rem;
+}
+
+.relative-div .detail {
+    position: absolute;
+    width: 5rem;
+    height: .4rem;
+    left: 1.3rem;
+    top: .73rem;
+}
