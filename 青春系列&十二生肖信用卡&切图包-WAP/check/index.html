@@ -35,10 +35,14 @@
 
 	<!-- 自定义 Css 引用：控制页面样式 -->
 	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/index-load.css" />
 	<!-- end 自定义 Css 引用 -->
 </head>
 
-<body>
+<body onload="loadBody()">
+	<div id="load-div">
+		<div id="loader4" ></div>
+	</div>
 	<div id="wrapper">
 		<!-- Header -->
 		<header></header>
@@ -124,22 +128,24 @@
 	</script>
 	<script>
 		var imgCount = 0;
-		$(function () {
-			setInterval(changeImg, 300);
 
-		})
+		function loadBody() {
+			$("#load-div").hide();
+			$("#wrapper").show();
+			setInterval(changeImg, 660);
+		}
 
 		function changeImg() {
 			if (imgCount % 2 == 0) {
 				$("#show-img1").animate({
 					"opacity": 0,
 					"z-index": 100
-				}, 200);
+				}, 660);
 			} else {
 				$("#show-img1").animate({
 					"opacity": 1,
 					"z-index": 200
-				}, 200);
+				}, 660);
 			}
 			imgCount++;
 		}

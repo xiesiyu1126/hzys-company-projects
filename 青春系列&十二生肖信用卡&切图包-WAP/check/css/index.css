@@ -7,7 +7,12 @@ img {
 	width: 100%;
 	display: block;
 }
-
+#wrapper{
+	display: none;
+}
+footer{
+	position: relative!important;
+}
 #content {
 	position: relative;
 }
