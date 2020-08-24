@@ -5,8 +5,7 @@
 
 需求文件名：线上取款机
   
-2020-07-22 新增列表：
-            1.新增的页面：index.html、xize.html
-            2.新增的css：index.css
-            3.新增的图片：images/index/*
-            4.新增的js：index.js
+2020-08-21 更新列表：
+            1.更新的页面：index.html、xize.html
+            2.更新的css：index.css
+            3.更新的图片：images/index/*

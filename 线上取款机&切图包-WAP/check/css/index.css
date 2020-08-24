@@ -22,10 +22,10 @@ img {
 
 .relative-div .huodong {
     position: absolute;
-    width: 2.13rem;
-    height: .53rem;
+    width: 2.15rem;
+    height: .54rem;
     right: -.2rem;
-    bottom: .1rem;
+    top: .04rem;
     transform: skewX(-20deg);
 
 }
@@ -34,8 +34,8 @@ img {
     position: absolute;
     width: 2.3rem;
     height: .52rem;
-    left: 1.02rem;
-    top: 2rem;
+    left: .95rem;
+    top: 1.75rem;
     border-radius: .23rem;
 }
 
@@ -43,9 +43,9 @@ img {
     position: absolute;
     width: 2.3rem;
     height: .52rem;
-    right: 1.05rem;
-    top: 2rem;
-    border-radius: .2rem;
+    right: .95rem;
+    top: 1.75rem;
+    border-radius: .27rem;
 }
 
 .relative-div #jieshao {
@@ -61,7 +61,7 @@ img {
     position: absolute;
     width: 1.3rem;
     height: .52rem;
-    right: 1.52rem;
+    right: 1.4rem;
     bottom: .3rem;
 }
 
@@ -81,7 +81,7 @@ img {
     position: relative;
     top: 50%;
     /*偏移*/
-    transform: translateY(-50%);
+    transform: translateY(-56%);
 }
 
 #tanchuang #close {
@@ -89,7 +89,7 @@ img {
     right: .16rem;
     height: .5rem;
     width: .5rem;
-    top: .01rem;
+    top: 1.2rem;
     z-index: 1;
     background-color: rgba(0, 0, 0, .4);
     text-align: center;
