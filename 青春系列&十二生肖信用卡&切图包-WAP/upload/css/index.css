@@ -40,21 +40,21 @@ footer{
 }
 
 .relative-div #right-gif-div {
-	position: absolute;
-	height: 2rem;
-	width: 2.4rem;
-	perspective: 150;
-	-webkit-perspective: 11rem;
-	right: .9rem;
-	top: -1.78rem;
+    position: absolute;
+    height: 2rem;
+    width: 2.4rem;
+    perspective: 150;
+    -webkit-perspective: 11rem;
+    right: .89rem;
+    top: -1.755rem;
 
 }
 
 .relative-div #right-gif {
-	position: absolute;
-	width: 2.58rem;
-	height: 1.4rem;
-	transform: rotate3d(7, 81, -2, -31deg);
+    position: absolute;
+    width: 2.61rem;
+    height: 1.4rem;
+    transform: rotate3d(7, 174, -2, -33deg);
 }
 
 .relative-div #left-gif-div2 {
@@ -94,19 +94,19 @@ footer{
 
 .relative-div #left-gif-div4 {
 	position: absolute;
-	height: 2rem;
-	width: 2.4rem;
-	perspective: 150;
-	-webkit-perspective: 7rem;
-	left: 1.76rem;
-	top: 1.54rem;
+    height: 2rem;
+    width: 2.5rem;
+    perspective: 150;
+    -webkit-perspective: 5.7rem;
+    left: 1.765rem;
+    top: 1.53rem;
 }
 
 .relative-div #left-gif4 {
-	position: absolute;
-	width: 2.04rem;
-	height: 1.27rem;
-    transform: rotate3d(-4, 146, -4, 26deg);
+    position: absolute;
+    width: 2.0rem;
+    height: 1.27rem;
+    transform: rotate3d(-99, 400, -42, 16deg);
 }
 #left-gif4 img{
 	position: absolute;
