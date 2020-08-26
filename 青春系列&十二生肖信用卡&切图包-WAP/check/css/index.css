@@ -3,16 +3,23 @@
 	padding: 0;
 }
 
+body {
+	background: #13418f;
+}
+
 img {
 	width: 100%;
 	display: block;
 }
-#wrapper{
+
+#wrapper {
 	display: none;
 }
-footer{
-	position: relative!important;
+
+footer {
+	position: relative !important;
 }
+
 #content {
 	position: relative;
 }
@@ -40,21 +47,21 @@ footer{
 }
 
 .relative-div #right-gif-div {
-    position: absolute;
-    height: 2rem;
-    width: 2.4rem;
-    perspective: 150;
-    -webkit-perspective: 11rem;
-    right: .89rem;
-    top: -1.755rem;
+	position: absolute;
+	height: 2rem;
+	width: 2.4rem;
+	perspective: 150;
+	-webkit-perspective: 11rem;
+	right: .89rem;
+	top: -1.755rem;
 
 }
 
 .relative-div #right-gif {
-    position: absolute;
-    width: 2.61rem;
-    height: 1.4rem;
-    transform: rotate3d(7, 174, -2, -33deg);
+	position: absolute;
+	width: 2.61rem;
+	height: 1.4rem;
+	transform: rotate3d(7, 174, -2, -33deg);
 }
 
 .relative-div #left-gif-div2 {
@@ -74,41 +81,72 @@ footer{
 	transform: rotate3d(-4, 90, -2, 50deg);
 }
 
+.relative-div #right-gif-div2 {
+	position: absolute;
+	height: 2.3rem;
+	width: 2rem;
+	perspective: 1rem;
+	-webkit-perspective: 5.7rem;
+	right: 2.1rem;
+	top: 2.2rem;
+}
+
+.relative-div #right-gif2 {
+	position: absolute;
+	width: 2.19rem;
+	height: 1.24rem;
+	transform: rotate3d(20, 90, -4, -31deg);
+	box-sizing: border-box;
+	border: 0.01rem solid rgba(28, 69, 133, 1);
+	border-radius: .14rem;
+	overflow: hidden;
+}
+
+.relative-div #right-gif2-img {
+	position: absolute;
+	left: -.05rem;
+	top: -.03rem;
+	width: 2.25rem;
+}
+
 .relative-div #right-gif-div3 {
 	position: absolute;
-	height: 2rem;
+	height: 2.3rem;
 	width: 2.4rem;
-	perspective: 150;
-	-webkit-perspective: 8rem;
-	right: 1.46rem;
-	top: 1.44rem;
+	perspective: 1rem;
+	-webkit-perspective: 5.7rem;
+	right: 1.52rem;
+	top: 1.43rem;
 }
 
 .relative-div #right-gif3 {
 	position: absolute;
-	width: 2.2rem;
-	height: 1.26rem;
-	transform: rotate3d(0, 90, 1, -31deg);
+	width: 2.24rem;
+	height: 1.29rem;
+	transform: rotate3d(20, 90, -4, -31deg);
+	box-sizing: border-box;
+	border: 0.02rem solid rgba(256, 256, 256, .1);
+	border-radius: .14rem;
 }
-
 
 .relative-div #left-gif-div4 {
 	position: absolute;
-    height: 2rem;
-    width: 2.5rem;
-    perspective: 150;
-    -webkit-perspective: 5.7rem;
-    left: 1.765rem;
-    top: 1.53rem;
+	height: 2rem;
+	width: 2.5rem;
+	perspective: 150;
+	-webkit-perspective: 5.7rem;
+	left: 1.76rem;
+	top: 1.5rem;
 }
 
 .relative-div #left-gif4 {
-    position: absolute;
-    width: 2.0rem;
-    height: 1.27rem;
-    transform: rotate3d(-99, 400, -42, 16deg);
+	position: absolute;
+	width: 2.0rem;
+	height: 1.33rem;
+	transform: rotate3d(-104, 400, -42, 18deg);
 }
-#left-gif4 img{
+
+#left-gif4 img {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -116,17 +154,17 @@ footer{
 
 .relative-div .apply-div {
 	position: absolute;
-    width: 1.9rem;
-    height: .56rem;
-    left: 2.8rem;
-    bottom: .1rem;
-    border-radius: .26rem;
+	width: 1.9rem;
+	height: .56rem;
+	left: 2.8rem;
+	bottom: .1rem;
+	border-radius: .26rem;
 }
 
 .relative-div .xize {
-    position: absolute;
-    width: 1.3rem;
-    height: .4rem;
-    left: 3.1rem;
-    top: 1.9rem;
+	position: absolute;
+	width: 1.3rem;
+	height: .4rem;
+	left: 3.1rem;
+	top: 1.9rem;
 }
