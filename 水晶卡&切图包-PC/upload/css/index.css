@@ -8,19 +8,249 @@ img {
     display: block;
 }
 
+
+
 .relative-div {
     position: relative;
     width: 100%;
 }
 
+.relative-div .xuehua-card {
+    position: absolute;
+    left: 310px;
+    bottom: 23px;
+    width: 112px;
+    height: 27px;
+}
+
+.relative-div .xingchen-card {
+    position: absolute;
+    left: 470px;
+    bottom: 23px;
+    width: 112px;
+    height: 27px;
+}
+
+.relative-div .liujin-card {
+    position: absolute;
+    left: 633px;
+    bottom: 23px;
+    width: 112px;
+    height: 27px;
+}
+
+.relative-div .old-card {
+    position: absolute;
+    right: 190px;
+    bottom: 100px;
+    width: 204px;
+    height: 45px;
+}
+
+.relative-div .apply-card {
+    position: absolute;
+    left: 625px;
+    top: 12px;
+    width: 284px;
+    height: 52px;
 
 
+}
+
+.relative-div .yuyue {
+    position: absolute;
+    left: 625px;
+    top: 100px;
+    width: 284px;
+    height: 52px;
+}
+
+.relative-div .xize {
+    position: absolute;
+    left: 725px;
+    bottom: 95px;
+    width: 84px;
+    height: 32px;
+}
+
+.relative-div .er-apply-card{
+    position: absolute;
+    left: 390px;
+    top: 2px;
+    width: 168px;
+    height: 35px;    
+    background: black;
+    opacity: .3;    
+}
+
+.relative-div .er-xize {
+    position: absolute;
+    left: 450px;
+    bottom: 55px;
+    width: 50px;
+    height: 22px;
+    background: black;
+    opacity: .3;
+
+}
+.relative-div .other1{
+    position: absolute;
+    right: 120px;
+    bottom: 80px;
+    width: 60px;
+    height: 35px;   
+    background: black;
+    opacity: .3;    
+}
+
+.relative-div .other2 {
+    position: absolute;
+    right: 120px;
+    bottom: 40px;
+    width: 60px;
+    height: 35px; 
+    background: black;
+    opacity: .3;
+
+}
 @media screen and (max-width: 1540px) {
+    .relative-div .xuehua-card {
+        position: absolute;
+        left: 232px;
+        bottom: 18px;
+        width: 86px;
+        height: 20px;
 
-   
+
+    }
+
+    .relative-div .xingchen-card {
+        position: absolute;
+        left: 352px;
+        bottom: 18px;
+        width: 86px;
+        height: 20px;
+
+
+    }
+
+    .relative-div .liujin-card {
+        position: absolute;
+        left: 473px;
+        bottom: 18px;
+        width: 86px;
+        height: 20px;
+
+
+    }
+
+    .relative-div .old-card {
+        position: absolute;
+        right: 145px;
+        bottom: 70px;
+        width: 155px;
+        height: 45px;
+
+
+    }
+
+    .relative-div .apply-card {
+        position: absolute;
+        left: 465px;
+        top: 8px;
+        width: 220px;
+        height: 42px;
+
+
+    }
+
+    .relative-div .yuyue {
+        position: absolute;
+        left: 465px;
+        top: 73px;
+        width: 220px;
+        height: 42px;
+
+
+    }
+
+    .relative-div .xize {
+        position: absolute;
+        left: 545px;
+        bottom: 73px;
+        width: 64px;
+        height: 20px;
+
+
+    }
 }
 
 @media screen and (max-width: 1140px) {
+    .relative-div .xuehua-card {
+        position: absolute;
+        left: 195px;
+        bottom: 13px;
+        width: 75px;
+        height: 20px;
 
 
+    }
+
+    .relative-div .xingchen-card {
+        position: absolute;
+        left: 295px;
+        bottom: 13px;
+        width: 75px;
+        height: 20px;
+
+
+    }
+
+    .relative-div .liujin-card {
+        position: absolute;
+        left: 398px;
+        bottom: 13px;
+        width: 75px;
+        height: 20px;
+
+
+    }
+
+    .relative-div .old-card {
+        position: absolute;
+        right: 122px;
+        bottom: 60px;
+        width: 130px;
+        height: 30px;
+
+
+    }
+
+    .relative-div .apply-card {
+        position: absolute;
+        left: 395px;
+        top: 8px;
+        width: 180px;
+        height: 32px;
+
+
+    }
+
+    .relative-div .yuyue {
+        position: absolute;
+        left: 395px;
+        top: 63px;
+        width: 180px;
+        height: 32px;
+
+
+    }
+
+    .relative-div .xize {
+        position: absolute;
+        left: 461px;
+        bottom: 60px;
+        width: 48px;
+        height: 22px;
+    }
 }
