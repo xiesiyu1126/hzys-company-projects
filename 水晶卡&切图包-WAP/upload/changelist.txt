@@ -1,0 +1,32 @@
+
+提交方：瀚智云思公司
+
+提交的目的：新增
+
+需求文件名：水晶蜜卡
+  
+2020-08-27新增列表：
+   
+			
+			1.新增的页面：index.html、xize-activity.html、xize-swarovski.html
+			
+			2.新增的images:	imgages/index/*
+						
+			3.更新的css：index.css、index-load.css
+			
+已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

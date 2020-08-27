@@ -1,0 +1,121 @@
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	display: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+	border: none;
+}
+
+.relative-div {
+	position: relative;
+	width: 100%;
+}
+
+
+#lb-div {
+	position: absolute;
+	top: .63rem;
+	left: 0;
+}
+
+.banner {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.inner {
+	width: 41.8rem;
+	position: relative;
+	animation: aaa 10s infinite 2s running;
+}
+
+@keyframes aaa {
+	0% {
+		transform: translateX(0);
+	}
+	34% {
+		transform: translateX(-24.3%);
+	}
+	67% {
+		transform: translateX(-49%);
+	}
+	100% {
+		transform: translateX(-73%);
+	}
+
+}
+
+.innerwrapper {
+	float: left;	
+}
+
+.banner img {
+	width: auto;
+	height: 10.46rem;
+}
+#lb-img2{
+	position: relative;
+	top: -.37rem;
+    left: .03rem;
+}
+#lb-img3{
+	position: relative;
+    top: -.12rem;
+    left: -.05rem;
+}
+#box-div{
+	position: absolute;
+	top: 1.03rem;
+	left: 0;
+}
+
+#bottom-div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.relative-div .detail-card {
+    position: absolute;
+    width: 2.52rem;
+    height: .5rem;
+    right: 0;
+    top: .42rem;
+}
+
+.relative-div .apply-card {
+    position: absolute;
+    width: 3.6rem;
+    height: .65rem;
+    left: 1.95rem;
+    top: 1.27rem;
+}
+
+.relative-div .xuehua {
+	position: absolute;
+    width: 3.6rem;
+    height: .6rem;
+    left: 1.95rem;
+    bottom: 1.55rem;
+}
+
+.relative-div .xize {
+	position: absolute;
+    width: .95rem;
+    height: .35rem;
+    left: 3.3rem;
+    bottom: 1.07rem;
+}
+
