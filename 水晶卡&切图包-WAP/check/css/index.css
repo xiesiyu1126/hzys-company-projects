@@ -39,7 +39,7 @@ img {
 .inner {
 	width: 41.8rem;
 	position: relative;
-	animation: aaa 10s infinite 2s running;
+	animation: aaa 5s infinite 2s running;
 }
 
 @keyframes aaa {
@@ -93,20 +93,23 @@ img {
 	bottom: 0;
 	left: 0;
 }
-.relative-div .card-01{
-    position: absolute;
-    width: 1.62rem;
-    height: .4rem;
-    bottom: 1.24rem;
-    left: .7rem;
+
+.relative-div .card-01 {
+	position: absolute;
+	width: 1.62rem;
+	height: .4rem;
+	bottom: 1.24rem;
+	left: .7rem;
 }
-.relative-div .card-02{
-    left: 2.95rem;
-    bottom: 1.67rem;
+
+.relative-div .card-02 {
+	left: 2.95rem;
+	bottom: 1.67rem;
 }
-.relative-div .card-03{
+
+.relative-div .card-03 {
 	left: 5.33rem;
-    bottom: 2.24rem;
+	bottom: 2.24rem;
 }
 
 .relative-div .detail-card {
@@ -146,4 +149,55 @@ img {
 	height: .35rem;
 	left: 3.3rem;
 	bottom: 1.07rem;
+}
+
+
+.fixed-div .er-apply-card {
+	position: absolute;
+	width: 3.3rem;
+	height: .65rem;
+	left: 2.1rem;
+	top: .38rem;
+}
+
+.fixed-div .er-xize {
+	position: absolute;
+	width: .95rem;
+	height: .35rem;
+	left: 3.3rem;
+	bottom: 1.63rem;
+}
+
+
+.fixed-div .er-other1 {
+	position: absolute;
+	width: 1.2rem;
+	height: .5rem;
+	right: 0;
+	top: .1rem;
+}
+
+.fixed-div .er-other2 {
+	position: absolute;
+	width: 1.2rem;
+	height: .55rem;
+	right: 0;
+	top: .84rem;
+
+}
+
+.er-apply-card-2 {
+	top: .62rem!important;
+}
+
+.er-xize-2 {
+	bottom: 1.43rem!important;
+}
+
+.er-other1-2 {
+	top: .3rem!important;
+}
+
+.er-other2-2 {
+	top: 1.03rem!important;
 }
