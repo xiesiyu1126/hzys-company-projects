@@ -157,7 +157,7 @@ img {
 	width: 3.3rem;
 	height: .65rem;
 	left: 2.1rem;
-	top: .38rem;
+	top: .25rem;
 }
 
 .fixed-div .er-xize {
@@ -165,39 +165,30 @@ img {
 	width: .95rem;
 	height: .35rem;
 	left: 3.3rem;
-	bottom: 1.63rem;
+	bottom: .88rem;
 }
 
 
-.fixed-div .er-other1 {
-	position: absolute;
-	width: 1.2rem;
-	height: .5rem;
-	right: 0;
-	top: .1rem;
-}
-
-.fixed-div .er-other2 {
+.relative-div .er-other1 {
 	position: absolute;
 	width: 1.2rem;
 	height: .55rem;
 	right: 0;
-	top: .84rem;
-
+	bottom: 1.21rem;
 }
 
-.er-apply-card-2 {
-	top: .62rem!important;
-}
-
-.er-xize-2 {
-	bottom: 1.43rem!important;
+.relative-div .er-other2 {
+	position: absolute;
+	width: 1.2rem;
+	height: .6rem;
+	right: 0;
+	bottom: .34rem;
 }
 
 .er-other1-2 {
-	top: .3rem!important;
+	bottom: .95rem!important;
 }
 
 .er-other2-2 {
-	top: 1.03rem!important;
+	bottom: .13rem!important;
 }
