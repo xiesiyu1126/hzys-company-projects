@@ -5,14 +5,12 @@
 
 需求文件名：playstation【最后生还】
   
-20200617新增或更新列表：
-   
-			
+20200827新增或更新列表：
+   			
 			1.更新的页面：index.html
-			
-			2.新增的images:	upload/imgages/card/*
-						
-			3.更新的css：playstation0617.css		
+			2.新增的页面：aili-dh.html		
+			3.新增的images:	upload/imgages/aili-dh/*						
+			4.更新的css：playstation0617.css		
 			
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
 

@@ -39,7 +39,7 @@ img {
 .inner {
 	width: 41.8rem;
 	position: relative;
-	animation: aaa 5s infinite 2s running;
+	/* animation: aaa 5s infinite 2s running; */
 }
 
 @keyframes aaa {
