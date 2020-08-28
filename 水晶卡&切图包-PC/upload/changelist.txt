@@ -1,15 +1,15 @@
-2020-06-29
+2020-08-28
 提交方：瀚智云思
 
 提交的目的：更新
 
-需求文件名：羊毛月刊&切图包-PC
+需求文件名：水晶蜜卡&切图包-PC
   
 新增列表：
    
-    1.新增的页面：index.html
+    1.新增的页面：index.html、liujin.html、xingchen.html、xuehua.html
 
-	2.新增的图片：将 images/index/*
+	2.新增的图片：将 images/index/*、images/liujin/*、images/xingchen/*、images/xuehua/*
 
     2.新增的CSS：将 index.css
 
