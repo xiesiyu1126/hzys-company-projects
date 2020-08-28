@@ -73,14 +73,14 @@ img {
     height: 32px;
 }
 
-.relative-div .er-apply-card{
+.relative-div .er-apply-card {
     position: absolute;
     left: 390px;
     top: 2px;
     width: 168px;
-    height: 35px;    
-    background: black;
-    opacity: .3;    
+    height: 35px;
+
+
 }
 
 .relative-div .er-xize {
@@ -89,18 +89,19 @@ img {
     bottom: 55px;
     width: 50px;
     height: 22px;
-    background: black;
-    opacity: .3;
+
+
 
 }
-.relative-div .other1{
+
+.relative-div .other1 {
     position: absolute;
     right: 120px;
     bottom: 80px;
     width: 60px;
-    height: 35px;   
-    background: black;
-    opacity: .3;    
+    height: 35px;
+
+
 }
 
 .relative-div .other2 {
@@ -108,11 +109,12 @@ img {
     right: 120px;
     bottom: 40px;
     width: 60px;
-    height: 35px; 
-    background: black;
-    opacity: .3;
+    height: 35px;
+
+
 
 }
+
 @media screen and (max-width: 1540px) {
     .relative-div .xuehua-card {
         position: absolute;
