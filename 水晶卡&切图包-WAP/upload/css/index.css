@@ -95,11 +95,11 @@ img {
 }
 
 .relative-div .card-01 {
-	position: absolute;
-	width: 1.62rem;
-	height: .4rem;
-	bottom: 1.24rem;
-	left: .7rem;
+    position: absolute;
+    width: 1.62rem;
+    height: 3.37rem;
+    bottom: 1.1rem;
+    left: .7rem;
 }
 
 .relative-div .card-02 {
