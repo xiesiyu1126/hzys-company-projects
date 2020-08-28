@@ -1,12 +1,12 @@
 
 var bkswiper = null;
 function update_footer(){
-	if ($(window).height() > $('body').height())
-	{
-		$("footer").css({'width':'100%','position':'absolute','bottom':0,'left':0});
-	}else{
-		$("footer").css({'width':'100%','position':'relative'});
-	}
+    if ($(window).height() > $('body').height())
+    {
+        $("footer").css({'width':'100%','position':'absolute','bottom':0,'left':0});
+    }else{
+        $("footer").css({'width':'100%','position':'relative'});
+    }
 
 }
 (function(document, window, $) {
@@ -31,32 +31,32 @@ function update_footer(){
         $('.sub-tab-sel li').on('click', function() {
             tabMod($(this))
         });
-		
-		if ($('.guize .tab-sel').length > 0)
-		{
-			bkswiper= new Swiper('.guize .tab-sel', {
-			  slidesPerView: 'auto',
-			  spaceBetween: 0,
-			});
-		}
+        
+        if ($('.guize .tab-sel').length > 0)
+        {
+            bkswiper= new Swiper('.guize .tab-sel', {
+              slidesPerView: 'auto',
+              spaceBetween: 0,
+            });
+        }
 
-		if ($('.banka .tab-sel').length > 0)
-		{
-			bkswiper= new Swiper('.banka .tab-sel', {
-			  slidesPerView: 'auto',
-			  spaceBetween: 0,
-			});
-		}
+        if ($('.banka .tab-sel').length > 0)
+        {
+            bkswiper= new Swiper('.banka .tab-sel', {
+              slidesPerView: 'auto',
+              spaceBetween: 0,
+            });
+        }
 
-		$(".rollicon li").click(function(){
-			var item = $(this).parent().parent().parent();	
-			var i = $(this).index();
-			item.find(".artical").addClass("hide");
-			item.find(".artical").eq(i).removeClass("hide");
-			item.find(".rollicon li").removeClass("active");
-			$(this).addClass("active");
-		});
-		
+        $(".rollicon li").click(function(){
+            var item = $(this).parent().parent().parent();  
+            var i = $(this).index();
+            item.find(".artical").addClass("hide");
+            item.find(".artical").eq(i).removeClass("hide");
+            item.find(".rollicon li").removeClass("active");
+            $(this).addClass("active");
+        });
+        
         $('.select-cl').on('click', function() {
             $('.select-box').hide();
             if($(this).hasClass('active')){
@@ -76,10 +76,10 @@ function update_footer(){
             }
             $('.nav-menu').addClass('active').fadeIn(200);
         });
-		
+        
 
-		
-		
+        
+        
     });
 
     function remInit() { //rem计算方法
@@ -104,14 +104,14 @@ function update_footer(){
     function kvSwiper() { //公用轮播切换方法
         if($('.swiper-container').hasClass('kv')){
 
-			if ($('.swiper-container.kv .swiper-slide').length > 1)
-			{
+            if ($('.swiper-container.kv .swiper-slide').length > 1)
+            {
                 $('.swiper-pagination').css('display','block');
-				loop = true;
-			}else{
+                loop = true;
+            }else{
                 $('.swiper-pagination').css('display','none');
-				loop = false;
-			}
+                loop = false;
+            }
             var kvSlide = new Swiper('.swiper-container.kv', {
                 loop: loop,
                 followFinger: false,
@@ -133,15 +133,16 @@ function update_footer(){
                         var img = $('.swiper-slide').eq(this.realIndex).find('img').attr('src');
                         $('.kv .mask-bg').css({
                             'background': 'url("'+img+'") 50% 50%/300% no-repeat',
-								
+                            'opacity': '0.3'    
                         });
                     }
                 }
             });
-			var img = $('.swiper-slide').eq(0).find('img').attr('src');
+            var img = $('.swiper-slide').eq(0).find('img').attr('src');
                         $('.kv .mask-bg').css({
                             'background': 'url("'+img+'") 50% 50%/300% no-repeat',
-								
+                            'opacity': '0.3'
+                                
                         });
         }
 
@@ -219,22 +220,22 @@ function tabMod(name) { //公用tab切换方法
         }else{
             $('.first-search').hide();
         }
-		//console.log(itme.eq(idx).find('.rollicon'))
-		if (itme.eq(idx).find('.rollicon'))
-		{
-			var swiper = new Swiper(itme.eq(idx).find('.rollicon'), {
-			  slidesPerView: 3,
-			  spaceBetween: 0,
-				  navigation: {
-					nextEl: '.button-next',
-					prevEl: '.button-prev',
-				  },
-			});
-			itme.eq(idx).find('.rollicon').find(".swiper-slide").removeClass("active");
-			itme.eq(idx).find('.rollicon').find(".swiper-slide").eq(0).addClass("active");
-			
-			itme.eq(idx).find('.artical').addClass("hide");
-			itme.eq(idx).find('.artical').eq(0).removeClass("hide");
-		}
-		update_footer();
+        //console.log(itme.eq(idx).find('.rollicon'))
+        if (itme.eq(idx).find('.rollicon'))
+        {
+            var swiper = new Swiper(itme.eq(idx).find('.rollicon'), {
+              slidesPerView: 3,
+              spaceBetween: 0,
+                  navigation: {
+                    nextEl: '.button-next',
+                    prevEl: '.button-prev',
+                  },
+            });
+            itme.eq(idx).find('.rollicon').find(".swiper-slide").removeClass("active");
+            itme.eq(idx).find('.rollicon').find(".swiper-slide").eq(0).addClass("active");
+            
+            itme.eq(idx).find('.artical').addClass("hide");
+            itme.eq(idx).find('.artical').eq(0).removeClass("hide");
+        }
+        update_footer();
     }

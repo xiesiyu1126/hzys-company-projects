@@ -4,6 +4,7 @@ body {
     font-family:'bankcomm',sans-serif;
     font-size:.24rem;
     color:#404040;
+    background-color: #fff;
 }
 a{color:#404040;}
 
@@ -66,7 +67,7 @@ header {
 }
 
 .nav-menu{
-    width:1.8rem;
+    width:2rem;
     position: absolute;
     bottom:0;
     right:.28rem;
@@ -86,8 +87,8 @@ header {
     right:.1rem;
 }*/
 .nav-menu li{
-    height:.45rem;
-    line-height:.45rem;
+    height:.6rem;
+    line-height:.6rem;
     text-align:center;
     border-bottom:1px solid #bfbfbf;
 }
