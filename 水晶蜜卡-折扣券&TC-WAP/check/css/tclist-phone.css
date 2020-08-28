@@ -1,0 +1,344 @@
+﻿
+html, body {
+    font-family: sans-serif;
+    background: #fff
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+strong, b {
+    font-weight: bold !important;
+}
+
+/*设置页面字体rem为单位*/
+
+html {
+    font-size: 625%;
+
+}
+
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 533%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    html {
+       font-size: 625% ;
+    }
+}
+
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 690% ;
+    }
+}
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 1000% ;
+    }
+}
+@media only screen and (min-width: 800px) {
+    html {
+        font-size: 1333% ;
+    }
+}
+
+
+/*init*/
+
+#wrapper {
+    width: 100%;
+}
+
+
+
+#content {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+/*tc*/
+.mob-tc {
+    padding: 0 0.3rem 0.2rem 0.3rem;
+}
+
+.mob-tc a {
+    color: #00F;
+    text-decoration: underline;
+}
+
+.mob-tc h1 {
+    font-size: 0.38rem;
+    color: #333333;
+    text-align: center;
+    padding-top: 0.3rem;
+    line-height: 0.58rem;
+    font-weight: normal;
+}
+
+.mob-tc h3 {
+    color: #f2633c;
+    font-size: 0.33rem;
+    line-height: 0.5rem;
+    padding: 0.2rem 0 0.05rem 0;
+    font-weight: 600;
+}
+
+.mob-tc p {
+    color: #333333;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+}
+
+.mob-tc ol {}
+
+.mob-tc ol li {
+    list-style: decimal inside;
+    color: #333333;
+    font-size: 0.3rem;
+    line-height: 0.48rem;
+    padding-bottom: 0.2rem;
+    text-align: justify;
+    text-align-last: left;
+    -moz-text-align-last: left;
+}
+
+.mob-tc table.datalist {
+    width: 100%;
+    background-color: #CACBCF;
+    margin: 0.1rem auto;
+    border-collapse: collapse;
+    border: 1px solid #999999;
+}
+
+.mob-tc table.datalist th,
+.mob-tc table.datalist td {
+    padding: 2px 5px;
+    background-color: #FFFFFF;
+    line-height: 0.35rem;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #999999;
+    font-size: 0.15rem;
+}
+
+.mob-tc table.datalist th {
+    color: #0093d3;
+    text-align: left;
+    font-weight: normal;
+}
+
+.split-line {
+    border-bottom: 1px solid #D0D0D0;
+    height: 1px;
+    width: 100%;
+    padding-top: 0.16rem;
+}
+
+
+/*list*/
+
+.mob-list {
+    padding: 0 10px 0 10px;
+}
+
+.mob-list .card-list,
+.mob-list .card-list-long {
+    font-size: 0px;
+    padding-top: 0.15rem;
+}
+
+.mob-list .card-list a,
+.mob-list .card-list-long a {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    font-size: 0.15rem;
+    height: 0.31rem;
+    width: 48%;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    line-height: 0.31rem;
+    overflow: hidden;
+    color: #d9d9d9;
+}
+
+.mob-list .card-list a:nth-child(even){
+    margin-left: 0.06rem;
+}
+
+.mob-list .card-list a.active,
+.mob-list .card-list-long a.active {
+    color: #ffffff;
+    font-size: 0.15rem;
+    font-weight: bold;
+    background: #0093d3;
+    border: 1px solid #0093d3;
+}
+.mob-list .card-list-long a{
+    width: 99%;
+}
+.mob-list .card-list-long a:nth-child(even) {
+    margin-left: 0;
+}
+
+/**/
+
+/*.mob-list .city-list .select-box {
+    font-size: 0px;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    background: url(../images/icon-list-jt.png) no-repeat 90% center;
+}
+*/
+.mob-list .city-list {
+    margin-top: 10px;
+    border: 1px solid #1894ca;
+    border-radius: 5px;
+    line-height: 0.8rem;
+    background: url(../images/icon-list-split.gif) no-repeat center center;
+    height: 0.8rem;
+}
+
+.mob-list .city-list select {
+    appearance: none;
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari 和 Chrome */
+    border: none;
+    display: inline-block;
+    width: 100%;
+    color: #333333;
+    font-size: 0.34rem;
+    line-height: 0.8rem;
+    background: none;
+    height: 0.8rem;
+    padding-left: 0.2rem;
+    position: relative;
+}
+
+
+/**/
+
+.mob-list .shop-list {
+    margin-top: 0.075rem;
+}
+
+.mob-list .shop-list table {
+    width: 100%;
+    background-color: #CACBCF;
+    margin: 10px auto;
+    border-collapse: collapse;
+    border: 1px solid #d9d9d9;
+    display: none;
+}
+
+.mob-list .shop-list th,
+.mob-list .shop-list td {
+    width: 50%;
+    padding: 0.1rem 0.25rem;
+    background-color: #FFFFFF;
+    line-height: 0.4rem;
+    color: #333333;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    font-size: 0.3rem;
+}
+
+.mob-list .shop-list th {
+    color: #0093d3;
+    text-align: left;
+    font-weight: normal;
+    font-size: 0.32rem;
+}
+ .mob-tc p,
+ .mob-tc ol li {
+     word-break: normal;
+     word-wrap: break-word;
+ }
+ 
+ .font-weight {
+     font-weight: 800;
+ }
+
+th,td{ word-wrap:break-word;word-break:normal;}
+.nav-menu li a {
+    height: 100%;
+    display: block;
+    font-size: .26rem;
+    color: #404040;
+    text-decoration: none;
+}
+#wrapper .select-box {
+    width: 49.5%;
+    max-height: 5rem;
+    position: static;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: translateY(0%);
+    background: url(../images/icon-list-jt.png) no-repeat 90% center;
+    border: 0px solid #bfbfbf;
+    z-index: 10;
+    overflow-y: auto;
+    display: block;
+    float: left;
+}
+.datalist1 td{ 
+    vertical-align: middle;
+    font-size: 0.3rem;
+    padding: 5px;
+    line-height: 0.45rem;
+	border: 1px solid #333;
+}
+/*tst*/
+
+
