@@ -7,7 +7,7 @@
   
 新增列表：
    
-    1.新增的页面：index.html、liujin.html、xingchen.html、xuehua.html
+    1.新增的页面：index.html、liujin.html、xingchen.html、xuehua.html、xize.html
 
 	2.新增的图片：将 images/index/*、images/liujin/*、images/xingchen/*、images/xuehua/*
 
