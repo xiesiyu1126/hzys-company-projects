@@ -13,5 +13,5 @@
 
     3.新增的CSS：将 index.css
     
-    4.新增的js：link.js
+    4.新增的js：xize.js、link.js
 
