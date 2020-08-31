@@ -26,9 +26,10 @@ img {
 
 
 #lb-div {
-	position: absolute;
-	top: .63rem;
-	left: 0;
+    position: absolute;
+    top: .63rem;
+    left: 0;
+    width: 10.2rem;
 }
 
 .banner {
@@ -37,7 +38,7 @@ img {
 }
 
 .inner {
-	width: 41.8rem;
+	/* width: 41.8rem; */
 	position: relative;
 	/* animation: aaa 5s infinite 2s running; */
 }
