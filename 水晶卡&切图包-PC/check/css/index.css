@@ -318,16 +318,20 @@ img {
 
 #gif-liujin {
     position: absolute;
-    bottom: 63px;
-    left: 381px;
-    width: 50px;
-    height: 50px;
+    bottom: 16px;
+    left: 331px;
+    width: 100px;
+    height: 157px;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 #gif-liujin img {
-	position: relative;
-	animation: liujinAnimate 0.7s infinite;
+    position: relative;
+    width: 102px!important;
+    /* animation: liujinAnimate 0.7s infinite; */
+    top: -1px;
+    height: 160px;
 }
 @keyframes liujinAnimate{
 	0%,100% {
@@ -344,15 +348,14 @@ img {
     position: absolute;
     bottom: 13px;
     left: 330px;
-    width: 100px;
+    width: 98px;
     height: 156px;
     overflow: hidden;
-    opacity: .3;
 }
 
 #gif-xingchen img {
 	position: relative;
-	animation: xingchenAnimate 0.7s infinite;
+	/* animation: xingchenAnimate 0.7s infinite; */
 }
 
 @keyframes xingchenAnimate {
