@@ -198,7 +198,7 @@ img {
 
 #gif-liujin {
 	position: absolute;
-    bottom: 1.6rem;
+    bottom: 1.8rem;
     left: 1.7rem;
     width: 1rem;
     height: 1rem;
@@ -207,15 +207,22 @@ img {
 
 #gif-liujin img {
 	position: relative;
-	animation: liujinAnimate 0.7s infinite;
+	animation: liujinAnimate 0.4s infinite;
 }
 @keyframes liujinAnimate{
-	0%,100% {
-		transform: scale(1);
+	0%{
+		opacity: 1;
+		transform: scale(2);
 	}
 
 	50% {		
-		transform: scale(2);
+		transform: scale(2.1);
+	}
+	52%{
+		opacity: 0;
+	}
+	56%{
+		opacity: 1;
 	}
 }
 
