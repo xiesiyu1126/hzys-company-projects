@@ -11,5 +11,7 @@
 
 	2.新增的图片：将 images/index/*、images/liujin/*、images/xingchen/*、images/xuehua/*
 
-    2.新增的CSS：将 index.css
+    3.新增的CSS：将 index.css
+    
+    4.新增的js：link.js
 

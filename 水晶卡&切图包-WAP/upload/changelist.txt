@@ -8,9 +8,9 @@
 2020-08-27新增列表：
    			
 			1.新增的页面：index.html、xize.html、liujin.html、xingchen.html、xuehua.html			
-			2.新增的images:	imgages/index/*、imgages/liujin/*、imgages/xingchen/*、imgages/xuehua/*、						
+			2.新增的images:	imgages/index/*、imgages/liujin/*、imgages/xingchen/*、imgages/xuehua/*					
 			3.新增的css：index.css、index-load.css
-			3.新增的js：xize.js
+			4.新增的js：xize.js、4.新增的js：link.js
 
 			
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X

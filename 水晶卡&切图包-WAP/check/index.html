@@ -82,28 +82,10 @@
 		<div id="content">
 
 			<div class="relative-div">
-				<div id="lb-div">
-					<div class="banner">
-						<div class="inner">
-							<div class="innerwrapper"><img src="images/index/1.png"></div>
-							<div class="innerwrapper"><img src="images/index/2.png"></div>
-							<div class="innerwrapper"><img src="images/index/3.png"></div>
-							<div class="innerwrapper"><img src="images/index/1.png"></div>
-						</div>
-					</div>
-				</div>
+				<a title="雪花" href="xuehua.html" class="card-01"></a>
+				<a title="星辰" href="xingchen.html" class="card-01 card-02"></a>
+				<a title="流金" href="liujin.html" class="card-01 card-03"></a>
 				<img src="images/index/index_01.jpg">
-				<div id="box-div">
-					<img src=images/index/box.png> 
-				</div>
-				<div id="bottom-div">
-					<div class="relative-div">
-						<a title="雪花" href="xuehua.html" class="card-01"></a>
-						<a title="星辰" href="xingchen.html" class="card-01 card-02"></a>
-						<a title="流金" href="liujin.html" class="card-01 card-03"></a>
-						<img src="images/index/bottom-img.png">
-					</div>
-				</div>
 			</div>
 
 			<img src="images/index/index_02.jpg">
@@ -111,14 +93,13 @@
 			<img src="images/index/index_04.jpg">
 			<img src="images/index/index_05.jpg">
 			<div class="relative-div">
-				<a title="经典蜜卡" class="detail-card" href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A102316486484&cardId=200"></a>
+				<a title="经典蜜卡" class="detail-card"
+					href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A102316486484&cardId=200"></a>
 				<img src="images/index/index_06.jpg">
 			</div>
 			<div class="fixed-div">
-				<a title="申请水晶蜜卡" class="apply-card"
-					href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A082018283242&cardId=264"></a>
-				<a title="预约雪花版" class="xuehua"
-					href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A082018283242&cardId=263"></a>
+				<a title="申请水晶蜜卡" id="apply-card-id" class="apply-card"></a>
+				<a title="预约雪花版" id="xuehua-id" class="xuehua"></a>
 				<a title="细则" class="xize" href="xize.html"></a>
 				<img src="images/index/index_07.jpg">
 			</div>
@@ -134,6 +115,7 @@
 	<script src="js/main.js"></script>
 	<!-- 自定义 js 引用 -->
 	<script src="js/weixin-share.js"></script>
+	<script src="js/link.js"></script>
 	<script>
 		function loadBody() {
 			$("#load-div").hide();

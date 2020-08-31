@@ -1,226 +1,195 @@
-*{
-    padding: 0;
-    margin: 0;
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
 }
 
-img{
-    display: block;
-    width: 100%;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.relative-div{
-    position: relative;
-    width: 100%;
+#wrapper {
+	display: none;
 }
-.relative-div .apply-card{
+
+img {
+	width: 100%;
+	display: block;
+	border: none;
+}
+
+.relative-div {
+	position: relative;
+	width: 100%;
+}
+
+
+#lb-div {
     position: absolute;
-    width: 296px;
-    height: 79px;
-    left: 620px;
-    top: 13px;
-    border-radius: 40px;
-}
-.relative-div .xize01{
-    position: absolute;
-    width: 92px;
-    height: 31px;
-    left: 712px;
-    bottom: 70px;
-}
-.relative-div .xize{
-    position: absolute;
-    width: 92px;
-    height: 31px;
-    left: 712px;
-    bottom: 74px;
-}
-.relative-div .more-card{
-    position: absolute;
-    width: 296px;
-    height: 79px;
-    left: 620px;
-    bottom: 61px;
-    border-radius: 40px;
+    top: .63rem;
+    left: 0;
+    width: 10.2rem;
 }
 
-.relative-div .go-apply{
+.banner {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.inner {
+	/* width: 41.8rem; */
+	position: relative;
+	/* animation: aaa 5s infinite 2s running; */
+}
+
+@keyframes aaa {
+	0% {
+		transform: translateX(0);
+	}
+
+	34% {
+		transform: translateX(-24.3%);
+	}
+
+	67% {
+		transform: translateX(-49%);
+	}
+
+	100% {
+		transform: translateX(-73%);
+	}
+
+}
+
+.innerwrapper {
+	float: left;
+}
+
+.banner img {
+	width: auto;
+	height: 10.46rem;
+}
+
+#lb-img2 {
+	position: relative;
+	top: -.37rem;
+	left: .03rem;
+}
+
+#lb-img3 {
+	position: relative;
+	top: -.12rem;
+	left: -.05rem;
+}
+
+#box-div {
+	position: absolute;
+	top: 1.03rem;
+	left: 0;
+}
+
+#bottom-div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.relative-div .card-01 {
     position: absolute;
-    width: 197px;
-    height: 71px;
-    right: 415px;
-    bottom: 39px;
-    border-radius: 40px;
-}
-.relative-div .detail{
-    position: absolute;
-    width: 73px;
-    height: 28px;
-}
-.relative-div .detail-01{
-    right: 715px;
-    top: 110px;
-}
-.relative-div .detail-02{
-    right: 715px;
-    top: 179px;
-}
-.relative-div .detail-03{
-    right: 629px;
-    top: 104px;
-}
-.relative-div .detail-04{
-    right: 598px;
-    top: 105px;
-}
-.relative-div .detail-05{
-    right: 672px;
-    top: 100px;
-}
-.relative-div .detail-06{
-    right: 714px;
-    top: 169px;
-}
-@media screen and (max-width: 1540px) {
-
-    .relative-div .apply-card{
-        position: absolute;
-        width: 219px;
-        height: 58px;
-        left: 467px;
-        top: 10px;
-        border-radius: 40px;
-    }
-    .relative-div .xize01{
-        position: absolute;
-        width: 72px;
-        height: 26px;
-        left: 532px;
-        bottom: 52px;
-    }
-    .relative-div .xize{
-        position: absolute;
-        width: 72px;
-        height: 26px;
-        left: 532px;
-        bottom: 54px;
-    }
-    
-    .relative-div .more-card{
-        position: absolute;
-        width: 219px;
-        height: 58px;
-        left: 467px;
-        bottom: 46px;
-        border-radius: 40px;
-    }
-    .relative-div .go-apply{
-        position: absolute;
-        width: 147px;
-        height: 54px;
-        right: 312px;
-        bottom: 29px;
-        border-radius: 40px;
-    }
-    .relative-div .detail{
-        position: absolute;
-        width: 51px;
-        height: 22px;
-    }
-    .relative-div .detail-01{
-        right: 537px;
-        top: 83px;
-    }
-    .relative-div .detail-02{
-        right: 537px;
-        top: 132px;
-    }
-    .relative-div .detail-03{
-        right: 475px;
-        top: 78px;
-    }
-    .relative-div .detail-04{
-        right: 450px;
-        top: 79px;
-    }
-    .relative-div .detail-05{
-        right: 507px;
-        top: 74px;
-    }
-    .relative-div .detail-06{
-        right: 537px;
-        top: 126px;
-    }   
+    width: 1.62rem;
+    height: 3.37rem;
+    bottom: 1.1rem;
+    left: .7rem;
 }
 
-@media screen and (max-width: 1140px) {
+.relative-div .card-02 {
+	left: 2.95rem;
+	bottom: 1.67rem;
+}
 
-    .relative-div .apply-card{
-        position: absolute;
-        width: 185px;
-        height: 49px;
-        left: 393px;
-        top: 8px;
-        border-radius: 40px;
-    }
-    .relative-div .xize01{
-        position: absolute;
-        width: 64px;
-        height: 20px;
-        left: 448px;
-        bottom: 44px;
-    }
-    .relative-div .xize{
-        position: absolute;
-        width: 64px;
-        height: 20px;
-        left: 448px;
-        bottom: 49px;
-    }
-    
-    .relative-div .more-card{
-        position: absolute;
-        width: 185px;
-        height: 49px;
-        left: 393px;
-        bottom: 39px;
-        border-radius: 40px;
-    }
+.relative-div .card-03 {
+	left: 5.33rem;
+	bottom: 2.24rem;
+}
 
-    .relative-div .go-apply{
-        position: absolute;
-        width: 126px;
-        height: 44px;
-        right: 261px;
-        bottom: 25px;
-        border-radius: 40px;
-    }
-    .relative-div .detail{
-        position: absolute;
-        width: 45px;
-        height: 19px;
-    }
-    .relative-div .detail-01{
-        right: 450px;
-        top: 69px;
-    }
-    .relative-div .detail-02{
-        right: 450px;
-        top: 112px;
-    }
-    .relative-div .detail-03{
-        right: 399px;
-        top: 65px;
-    }
-    .relative-div .detail-04{
-        right: 379px;
-        top: 66px;
-    }
-    .relative-div .detail-05{
-        right: 425px;
-        top: 61px;
-    }
-    .relative-div .detail-06{
-        right: 451px;
-        top: 106px;
-    }
+.relative-div .detail-card {
+	position: absolute;
+	width: 2.52rem;
+	height: .5rem;
+	right: 0;
+	bottom: 0;
+}
+
+
+.fixed-div {
+	position: sticky;
+	bottom: 0;
+	left: 0;
+}
+
+.fixed-div .apply-card {
+	position: absolute;
+	width: 3.2rem;
+	height: .65rem;
+	left: .25rem;
+	top: .21rem;
+}
+
+.fixed-div .xuehua {
+	position: absolute;
+	width: 3.2rem;
+	height: .65rem;
+	right: .25rem;
+	top: .21rem;
+}
+
+.fixed-div .xize {
+	position: absolute;
+	width: .95rem;
+	height: .35rem;
+	left: 3.3rem;
+	bottom: .23rem;
+}
+
+
+.fixed-div .er-apply-card {
+	position: absolute;
+	width: 3.3rem;
+	height: .65rem;
+	left: 2.1rem;
+	top: .25rem;
+}
+
+.fixed-div .er-xize {
+	position: absolute;
+	width: .95rem;
+	height: .35rem;
+	left: 3.3rem;
+	bottom: .88rem;
+}
+
+
+.relative-div .er-other1 {
+	position: absolute;
+	width: 1.2rem;
+	height: .55rem;
+	right: 0;
+	bottom: 1.21rem;
+}
+
+.relative-div .er-other2 {
+	position: absolute;
+	width: 1.2rem;
+	height: .6rem;
+	right: 0;
+	bottom: .34rem;
+}
+
+.er-other1-2 {
+	bottom: .95rem !important;
+}
+
+.er-other2-2 {
+	bottom: .13rem !important;
 }
