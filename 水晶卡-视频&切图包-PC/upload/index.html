@@ -31,6 +31,7 @@
 
   <!-- start 引入自定义的css -->
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/video-js.min.css">
 
   <!-- end 引入自定义的css-->
 </head>
@@ -50,17 +51,30 @@
         <a title="雪花" href="xuehua.html" class="xuehua-card"></a>
         <img src="images/index/index_01.jpg">
       </div>
-      <img src="images/index/index_02.jpg">
-      <img src="images/index/index_03.jpg">
       <div class="relative-div">
-        <a title="经典蜜卡" href="https://creditcard.bankcomm.com/content/dam/pc/mkt/mikaMINISITE/index.html" class="old-card"></a>
-        <img src="images/index/index_04.jpg">
+        <div id="video-div" style="z-index: 500;">
+          <video id="my-video" class="video-js vjs-fluid " style="object-fit: fill;" controls
+            poster="images/index/video.jpg" playsinline="true" x5-playsinline="x5-playsinline" webkit-playsinline="true"
+            x-webkit-airplay="true" crossorigin="anonymous" x5-video-orientation="portraint"
+            x5-video-player-type="h5-page" x5-video-player-fullscreen="true" data-setup="">
+            <source src="media/video.mp4" type="video/mp4">
+          </video>
+        </div>
+        <img src="images/index/index_02.jpg">
+      </div>
+
+      <img src="images/index/index_03.jpg">
+      <img src="images/index/index_04.jpg">
+      <div class="relative-div">
+        <a title="经典蜜卡" href="https://creditcard.bankcomm.com/content/dam/pc/mkt/mikaMINISITE/index.html"
+          class="old-card"></a>
+        <img src="images/index/index_05.jpg">
       </div>
       <div class="relative-div">
-        <a title="申请水晶蜜卡"  id="apply-card-id" class="apply-card"></a>
+        <a title="申请水晶蜜卡" id="apply-card-id" class="apply-card"></a>
         <a title="预约雪花" id="xuehua-id" class="yuyue"></a>
         <a title="细则" href="xize.html" class="xize"></a>
-        <img src="images/index/index_05.jpg">
+        <img src="images/index/index_06.jpg">
       </div>
     </div>
   </div>
@@ -75,6 +89,7 @@
   <script src="/etc/designs/pccc_v2/resource/clientlibs/pc/js/utils/menu.js"></script>
   <script src="/etc/designs/pccc/shared/clientlibs/js/gzcj_02.js" type="text/javascript"></script>
   <script src="js/link.js"></script>
+  <script src="js/video.min.js"></script>
   <!-- start 引入自定义的js -->
 
   <!-- end 引入自定义的js-->
