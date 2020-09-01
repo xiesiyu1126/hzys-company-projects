@@ -36,13 +36,13 @@
 	<!-- windows phone 点击无高光 -->
 	<meta name="msapplication-tap-highlight" content="no">
 
-	<meta name="keywords" content="流金版信用卡" />
-	<meta name="description" content="流金版信用卡" />
-	<title>流金版信用卡 | 交通银行信用卡官网</title>
+	<meta name="keywords" content="水晶蜜卡信用卡" />
+	<meta name="description" content="水晶蜜卡信用卡" />
+	<title>水晶蜜卡信用卡 | 交通银行信用卡官网</title>
 	<meta name="native"
-		content='[{"title":"分享","action":"share","para":{"title":"流金版信用卡","desc":"","pageUrl":"","imageUrl":""}}]'>
+		content='[{"title":"分享","action":"share","para":{"title":"水晶蜜卡信用卡","desc":"","pageUrl":"","imageUrl":""}}]'>
 	<!--weixin分享 start-->
-	<meta name="wx-title" content="流金版信用卡" />
+	<meta name="wx-title" content="水晶蜜卡信用卡" />
 	<meta name="wx-desc" content="" />
 	<meta name="wx-img" content="">
 	<meta name="wx-link" content="">
@@ -58,8 +58,9 @@
 	<!-- wap-header-footer.js中包含页面头部header和footer的渲染、百度统计代码的引入、买单吧环境下header的隐藏及footer固定在页面底部的代码 -->
 	<script src="/content/dam/phone/new/common/js/wap-header-footer.js"></script>
 	<!-- 自定义 Css 引用 -->
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/index-load.css">
+	<link rel="stylesheet" href="css-v3/index.css">
+	<link rel="stylesheet" href="css-v3/index-load.css">
+	<link rel="stylesheet" href="css-v3/video-js.min.css">
 	<!-- end 自定义 Css 引用 -->
 </head>
 
@@ -74,29 +75,44 @@
 		<!-- 自定义Title代码，需自行添加title内容和返回链接（href） -->
 		<section class="top-title">
 			<a href="#" class="btn-back"></a>
-			<h1>流金版</h1>
+			<h1>水晶蜜卡</h1>
 		</section>
 		<!-- main 自定义页面主体内容-->
 		<div id="content">
 
+			<img src="images-v3/index/index-tx_01.jpg">
 			<div class="relative-div">
-				<div id="gif-liujin"><img src="images/gif/liujin.gif"></div>
-				<img src="images/liujin/liujin_01.jpg">
+				<div id="video-div">
+					<video id="my-video" class="video-js vjs-fluid " style="object-fit: fill;" controls
+						poster="images/index/video.jpg" playsinline="true" x5-playsinline="x5-playsinline"
+						webkit-playsinline="true" x-webkit-airplay="true" crossorigin="anonymous"
+						x5-video-orientation="portraint" x5-video-player-type="h5-page"
+						x5-video-player-fullscreen="true" data-setup="">
+						<source src="media/video.mp4" type="video/mp4">
+					</video>
+				</div>
+				<img src="images-v3/index/index-tx_02.jpg">
+			</div>
+			<div class="relative-div">
+				<a title="雪花" href="xuehua-v3.html" class="card-01"></a>
+				<a title="星辰" href="xingchen-v3.html" class="card-01 card-02"></a>
+				<a title="流金" href="liujin-v3.html" class="card-01 card-03"></a>
+				<img src="images-v3/index/index-tx_03.jpg">
 			</div>
 
-			<img src="images/liujin/liujin_02.jpg">
-			<img src="images/liujin/liujin_03.jpg">
+			<img src="images-v3/index/index_03.jpg">
+			<img src="images-v3/index/index_04.jpg">
+
 			<div class="relative-div">
-				<a title="星辰" class="er-other1 er-other1-2" href="xingchen.html"></a>
-				<a title="雪花" class="er-other2 er-other2-2" href="xuehua.html"></a>
-				<img src="images/liujin/liujin_04.jpg">
+				<a title="经典蜜卡" class="detail-card"
+					href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A102316486484&cardId=200"></a>
+				<img src="images-v3/index/index_05.jpg">
 			</div>
-
-
 			<div class="fixed-div">
-				<a title="申请水晶蜜卡" id="apply-card-id" class="er-apply-card"></a>
-				<a title="细则" class="er-xize" href="xize.html"></a>
-				<img src="images/liujin/liujin_05.jpg">
+				<a title="申请水晶蜜卡" id="apply-card-id" class="apply-card"></a>
+				<a title="预约雪花版" id="xuehua-id" class="xuehua"></a>
+				<a title="细则" class="xize" href="xize-v3.html"></a>
+				<img src="images-v3/index/index_07.jpg">
 			</div>
 		</div>
 
@@ -111,7 +127,8 @@
 	<script src="/etc/designs/pccc_v2/resource/clientlibs/wap/js/main.js"></script>
 	<!-- 自定义 js 引用 -->
 	<script src="/content/dam/phone/new/common/js/weixin-share.js"></script>
-	<script src="js/link.js"></script>
+	<script src="js-v3/link.js"></script>
+	<script src="js-v3/video.min.js"></script>
 	<script>
 		function loadBody() {
 			$("#load-div").hide();
