@@ -257,64 +257,6 @@ img {
     }
 }
 
-#gif-xuehua {
-    position: absolute;
-    bottom: 40px;
-    right: 300px;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-}
-
-#gif-xuehua img {
-	position: relative;
-	animation: xuehuaAnimate 0.7s infinite;
-}
-
-@keyframes xuehuaAnimate {
-	0% {
-		opacity: 1;
-		left: 10px;
-		top: -10px;
-		transform: scale(2);
-	}
-
-	5% {
-		opacity: 0;
-	}
-
-	30% {
-		opacity: 0;
-	}
-
-	33% {
-		opacity: 1;
-		left: -30px;
-		top: 45px;
-		transform: scale(1.1);
-	}
-
-	35% {
-		opacity: 0;
-	}
-
-	60% {
-		opacity: 0;
-	}
-
-	66% {
-		opacity: 1;
-		left: 55px;
-		top: 10px;
-		transform: scale(1.3);
-	}
-	70% {
-		opacity: 0;
-	}
-	98% {
-		opacity: 0;
-	}
-}
 
 #gif-liujin {
     position: absolute;
@@ -328,23 +270,26 @@ img {
 
 #gif-liujin img {
     position: relative;
-    width: 102px!important;
+    width: 102px !important;
     /* animation: liujinAnimate 0.7s infinite; */
     top: -1px;
     height: 160px;
 }
-@keyframes liujinAnimate{
-	0%,100% {
-		transform: scale(2);
-	}
 
-	50% {		
-		transform: scale(3);
-	}
+@keyframes liujinAnimate {
+
+    0%,
+    100% {
+        transform: scale(2);
+    }
+
+    50% {
+        transform: scale(3);
+    }
 }
 
 
-#gif-xingchen{
+#gif-xingchen {
     position: absolute;
     bottom: 13px;
     left: 330px;
@@ -354,51 +299,53 @@ img {
 }
 
 #gif-xingchen img {
-	position: relative;
-	/* animation: xingchenAnimate 0.7s infinite; */
+    position: relative;
+    /* animation: xingchenAnimate 0.7s infinite; */
 }
 
 @keyframes xingchenAnimate {
-	0% {
-		opacity: 1;
-		left: -5px;
-		top: 10px;
-		transform: scale(2);
-	}
+    0% {
+        opacity: 1;
+        left: -5px;
+        top: 10px;
+        transform: scale(2);
+    }
 
-	5% {
-		opacity: 0;
-	}
+    5% {
+        opacity: 0;
+    }
 
-	30% {
-		opacity: 0;
-	}
+    30% {
+        opacity: 0;
+    }
 
-	33% {
-		opacity: 1;
-		left: -30px;
-		top: 80px;
-		transform: scale(1.1);
-	}
+    33% {
+        opacity: 1;
+        left: -30px;
+        top: 80px;
+        transform: scale(1.1);
+    }
 
-	35% {
-		opacity: 0;
-	}
+    35% {
+        opacity: 0;
+    }
 
-	60% {
-		opacity: 0;
-	}
+    60% {
+        opacity: 0;
+    }
 
-	66% {
-		opacity: 1;
-		left:35px;
-		top: 20px;
-		transform: scale(1.3);
-	}
-	70% {
-		opacity: 0;
-	}
-	98% {
-		opacity: 0;
-	}
+    66% {
+        opacity: 1;
+        left: 35px;
+        top: 20px;
+        transform: scale(1.3);
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    98% {
+        opacity: 0;
+    }
 }

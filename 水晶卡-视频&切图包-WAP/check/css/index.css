@@ -137,65 +137,6 @@ img {
 	bottom: .13rem !important;
 }
 
-#gif-xuehua {
-	position: absolute;
-	bottom: .67rem;
-	right: .67rem;
-	width: 2.5rem;
-	height: 2.5rem;
-	overflow: hidden;
-}
-
-#gif-xuehua img {
-	position: relative;
-	animation: xuehuaAnimate 0.7s infinite;
-}
-
-@keyframes xuehuaAnimate {
-	0% {
-		opacity: 1;
-		left: 0rem;
-		top: -.3rem;
-		transform: scale(2);
-	}
-
-	5% {
-		opacity: 0;
-	}
-
-	30% {
-		opacity: 0;
-	}
-
-	33% {
-		opacity: 1;
-		left: -.45rem;
-		top: .85rem;
-		transform: scale(1.1);
-	}
-
-	35% {
-		opacity: 0;
-	}
-
-	60% {
-		opacity: 0;
-	}
-
-	66% {
-		opacity: 1;
-		left: .55rem;
-		top: .3rem;
-		transform: scale(1.3);
-	}
-	70% {
-		opacity: 0;
-	}
-	98% {
-		opacity: 0;
-	}
-}
-
 #gif-liujin {
 	position: absolute;
     bottom: 0.65rem;
