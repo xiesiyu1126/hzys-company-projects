@@ -1,0 +1,31 @@
+
+提交方：瀚智云思公司
+
+提交的目的：新增
+
+需求文件名：水晶蜜卡
+  
+2020-09-01新增列表：
+   			
+			1.新增的页面：index.html、xize.html、liujin.html、xingchen.html、xuehua.html			
+			2.新增的images:	imgages/index/*、imgages/liujin/*、imgages/xingchen/*、imgages/xuehua/*					
+			3.新增的css：index.css、index-load.css
+			4.新增的js：xize.js、link.js
+
+			
+已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
