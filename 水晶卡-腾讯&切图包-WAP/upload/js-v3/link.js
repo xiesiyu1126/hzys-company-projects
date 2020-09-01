@@ -38,7 +38,7 @@ $(function () {
             window.location.href = "https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?trackCode=A082018283242&cardId=263";
         } else {
             console.log("PC")
-            window.location.href = "yuyue.html";
+            window.location.href = "yuyue-v3.html";
         }
     });
 
