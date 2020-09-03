@@ -5,7 +5,7 @@
 
 需求文件名：水晶蜜卡施华洛世奇满减券
   
-2020-08-28 新增列表：
-            1.新增的页面：index.html、xize.html
+2020-09-03 新增列表：
+            1.新增的页面：index.html
             2.新增的css：index.css
             3.新增的图片：images/index/*
