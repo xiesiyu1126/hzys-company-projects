@@ -187,28 +187,3 @@ img {
 .er-other2-2 {
 	bottom: .13rem !important;
 }
-
-#gif-liujin {
-	position: absolute;
-    bottom: 0.65rem;
-    left: .79rem;
-    width: 2rem;
-    height: 3.18rem;
-    /* background: black; */
-    overflow: hidden;
-    border-radius: .05rem;
-}
-#gif-liujin img{
-	width: 2.07rem;
-    height: 3.26rem;
-    top: -0.02rem;
-    position: absolute;
-}
-
-#gif-xingchen{
-	position: absolute;
-    bottom: .38rem;
-    left: .9rem;
-    width: 2.15rem;
-    height: 3.4rem;
-}
