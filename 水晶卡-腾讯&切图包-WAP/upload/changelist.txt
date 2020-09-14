@@ -13,6 +13,17 @@
 			4.新增的js：xize.js、link.js
 
 			
+
+2020-09-14更新列表：
+   			
+			1.更新的页面：index.html、liujin.html、xingchen.html
+			2.删除的页面：xuehua.html、yuyue.html		
+			3.更新的css：index.css
+			4.更新的images:	imgages/index/（index_07、index-tx_03）*、imgages/liujin/（liujin_04、liujin_05）、imgages/xingchen/（xingchen_04、xingchen_05）
+			5.删除的images：imgages/xuehua/*、imgages/yuyue/*					
+			
+			
+
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
 
 
