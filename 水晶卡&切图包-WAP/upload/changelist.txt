@@ -12,6 +12,12 @@
 			3.更新的css：index.css
 
 
+2020-09-14更新列表：
+   			
+			1.更新的页面：index.html、liujin.html、xingchen.html
+			2.更新的images:	imgages/index/*、imgages/liujin/*、imgages/xingchen/*
+			3.更新的css：index.css
+
 			
 已测试设备： 华为荣耀8、小米、OPPO、iphone6s、iphone 8P、iphone X
 

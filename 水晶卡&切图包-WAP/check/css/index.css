@@ -89,101 +89,33 @@ img {
 }
 
 .relative-div .card-01 {
-    position: absolute;
-    width: 1.62rem;
-    height: 3.37rem;
-    bottom: 1.1rem;
-    left: .7rem;
+	position: absolute;
+	width: 1.62rem;
+	height: 3.37rem;
 }
 
 .relative-div .card-02 {
-	left: 2.95rem;
-	bottom: 1.67rem;
+	left: 1.62rem;
+	bottom: 1.25rem;
 }
 
 .relative-div .card-03 {
-	left: 5.33rem;
-	bottom: 2.24rem;
+	left: 4.46rem;
+	bottom: 1.94rem;
 }
 
-.relative-div .detail-card {
-	position: absolute;
-	width: 2.52rem;
-	height: .5rem;
-	right: 0;
-	bottom: 0;
-}
-
-
-.fixed-div {
-	position: sticky;
-	position: -webkit-sticky;	
-	bottom: 0;
-	left: 0;
-}
-
-.fixed-div .apply-card {
-	position: absolute;
-	width: 3.2rem;
-	height: .65rem;
-	left: .25rem;
-	top: .21rem;
-}
-
-.fixed-div .xuehua {
-	position: absolute;
-	width: 3.2rem;
-	height: .65rem;
-	right: .25rem;
-	top: .21rem;
-}
-
-.fixed-div .xize {
+.relative-div .xize {
 	position: absolute;
 	width: .95rem;
 	height: .35rem;
 	left: 3.3rem;
-	bottom: .23rem;
+	top: .23rem;
 }
 
-
-.fixed-div .er-apply-card {
-	position: absolute;
-	width: 3.3rem;
-	height: .65rem;
-	left: 2.1rem;
-	top: .25rem;
-}
-
-.fixed-div .er-xize {
+.relative-div .er-xize {
 	position: absolute;
 	width: .95rem;
 	height: .35rem;
-	left: 3.3rem;
-	bottom: .88rem;
-}
-
-
-.relative-div .er-other1 {
-	position: absolute;
-	width: 1.2rem;
-	height: .55rem;
-	right: 0;
-	bottom: 1.21rem;
-}
-
-.relative-div .er-other2 {
-	position: absolute;
-	width: 1.2rem;
-	height: .6rem;
-	right: 0;
-	bottom: .34rem;
-}
-
-.er-other1-2 {
-	bottom: .95rem !important;
-}
-
-.er-other2-2 {
-	bottom: .13rem !important;
+	left: 3.28rem;
+	bottom: .96rem;
 }
