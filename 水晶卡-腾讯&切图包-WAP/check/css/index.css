@@ -54,23 +54,25 @@ img {
 	width: 2.52rem;
 	height: .5rem;
 	right: 0;
-	bottom: .36rem;
+	bottom: .23rem;
 }
-
 
 .fixed-div {
 	position: sticky;
 	position: -webkit-sticky;
+	position: -o-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;	
 	bottom: 0;
 	left: 0;
 }
 
 .fixed-div .apply-card {
     position: absolute;
-    width: 3.1rem;
-    height: .65rem;
-    left: 2.2rem;
-    top: .35rem;
+    width: 3.5rem;
+    height: .68rem;
+    left: 2rem;
+    top: .1rem;
 }
 
 
@@ -79,7 +81,7 @@ img {
 	width: .95rem;
 	height: .35rem;
 	left: 3.3rem;
-	bottom: .23rem;
+	bottom: .05rem;
 }
 
 
@@ -89,7 +91,7 @@ img {
 	width: 3.3rem;
 	height: .65rem;
 	left: 2.1rem;
-	top: .25rem;
+	top: .06rem;
 }
 
 .fixed-div .er-xize {
