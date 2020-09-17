@@ -1,3 +1,12 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+#wrapper{
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,18 +15,21 @@
 img {
     width: 100%;
     display: block;
+    border: none;
+    margin-top: -0.02rem;
 }
+
 
 .card-div {
     position: relative;
     width: 100%;
 }
 
-.card-div .xize{
+.card-div .xize {
     position: absolute;
     width: 1.6rem;
     height: .45rem;
-    top: .2rem;
+    bottom: .48rem;
     left: 3rem;
 }
 
@@ -28,26 +40,96 @@ img {
     border-radius: 0.1rem;
 }
 
-.card-div .card-link{
-    position: absolute;
-    width: 2.3rem;
-    height: .55rem;
-}
-
 .right {
     right: 2rem;
-    top: 0.7rem;
 }
 
 .left {
     left: 1.85rem;
-    top: 0.7rem;
 }
-.link-right{
-    right: 1.3rem;
-    top: 0.15rem;
+
+.gif-box {
+    width: 2.24rem;
+    height: 1.6rem;
 }
-.link-left{
-    left: 1.55rem;
-    top: .1rem;
+
+.gif-box div {
+    float: left;
+}
+
+.gif-box .left-gif {
+    width: 1rem;
+    perspective: 3rem;
+    -webkit-perspective: 3rem;
+}
+
+.left-gif img {
+    transform: rotate3d(-3, 90, 1, 13deg);
+}
+
+.gif-box .right-gif {
+    perspective: 2rem;
+    -webkit-perspective: 2rem;
+    width: 1.4rem;
+    margin-left: -.27rem;
+    margin-top: 0.7rem;
+}
+
+
+.right-gif .hidden-div {
+    width: 1.42rem;
+    height: .9rem;
+    transform: rotate3d(7, 174, -2, -12deg);
+    overflow: hidden;
+    border-radius: .05rem;
+}
+
+
+.hidden-div img {
+    position: relative;
+    left: -.035rem;
+    width: 1.5rem;
+    border-radius: .05rem;
+}
+
+.begin-gif {
+    position: absolute;
+    right: 0.56rem;
+    bottom: .62rem;
+    width: 2.2rem;
+}
+
+.begin-left {
+    width: .95rem!important;
+}
+.begin-right{
+    margin-left: -.18rem!important;
+    margin-top: 0.58rem!important;
+}
+.begin-hidden{
+    width: 1.44rem;
+    height: .92rem;
+    transform: rotate3d(7, 174, -2, -12deg);
+    overflow: hidden;
+    border-radius: .05rem;
+}
+.begin-hidden img{
+    position: relative;
+    left: -.035rem;
+    top: -.02rem;
+    width: 1.55rem;
+    border-radius: .05rem;
+}
+
+.end-gif {
+    position: absolute;
+    left: 1.5rem;
+    top: .19rem;
+}
+
+.bottle{
+    position: absolute;
+    width: 1.55rem;
+    bottom: .01rem;
+    right: -.29rem;
 }

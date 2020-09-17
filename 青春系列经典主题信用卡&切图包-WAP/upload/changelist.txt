@@ -7,9 +7,9 @@
   
 新增列表：
    
-    1.新增的页面：index.html、xize.html
+    1.更新的页面：index.html
 
-    2.新增的CSS： index.css
+    2.更新的CSS： index.css
     
-	3.新增的图片：将 images/index/*
+	3.更新的图片：images/index/*
 

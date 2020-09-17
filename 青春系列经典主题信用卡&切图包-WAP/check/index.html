@@ -2,7 +2,8 @@
 <html lang="zh">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <!-- 可隐藏地址栏，仅针对IOS的Safari（注：IOS7.0版本以后，safari上已看不到效果） -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <!-- IOS中禁用将数字识别为电话号码/忽略Android平台中对邮箱地址的识别 -->
@@ -62,10 +63,15 @@
 
   <!-- 自定义 Css 引用：控制页面样式 -->
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index-load.css">
   <!-- end 自定义 Css 引用 -->
 </head>
 
-<body>
+<body onload="loadBody()">
+  <div id="load-div">
+    <div id="loader4"></div>
+  </div>
+
   <div id="wrapper">
     <!-- Header -->
     <header></header>
@@ -78,53 +84,59 @@
 
     <!-- main 自定义页面主体内容-->
     <div class="content">
-      <img src="images/index/index_01.jpg" />
-      <img src="images/index/index_02.jpg">
-      <img src="images/index/index_03.jpg">
-      <img src="images/index/index_04.jpg">
-      <img src="images/index/index_05.jpg">
-      <img src="images/index/index_06.jpg">
-      <img src="images/index/index_07.jpg">
-      <img src="images/index/index_08.jpg">
-      <img src="images/index/index_09.jpg">
-      <img src="images/index/index_10.jpg">
-      <img src="images/index/index_11.jpg">
       <div class="card-div">
-        <a href="xize.html" class="xize"></a>
-        <img src="images/index/index_12.jpg">
+
+        <div class="gif-box begin-gif">
+
+          <div class="left-gif begin-left"><img src="images/gif/gaoda.gif"></div>
+          <div class="right-gif begin-right">
+            <div class="begin-hidden">
+              <img src="images/gif/gaoda-02.gif" />
+            </div>
+          </div>
+        </div>
+        <img class="bottle" src="images/gif/bottle.png" />
+        <img src="images/index/index_01.jpg" />
       </div>
 
+
+      <div class="card-div">
+        <a href="xize.html" class="xize"></a>
+        <img src="images/index/index_02.jpg">
+      </div>
       <div class="card-div">
         <!-- <a href="https://creditcard.bankcomm.com/content/dam/phone/mkt/mkminisite/wap/index.html"
           class="card-link link-right"></a> -->
         <a href="https://creditcardapp.bankcomm.com/applynew/front/apply/online/cardInfo.html?trackCode=A062119165784&commercial_id=null&telecom_id=null&cardId=200"
-          class="apply right btn-appro"></a>
-        <img src="images/index/index_13.jpg">
+          class="apply right" style="bottom: .98rem;"></a>
+        <img src="images/index/index_03.jpg">
       </div>
       <div class="card-div">
         <!-- <a href="https://creditcard.bankcomm.com/content/dam/phone/mkt/cxy_yybjk/msgbsj.html"
           class="card-link link-left"></a> -->
         <a href="https://creditcardapp.bankcomm.com/applynew/front/apply/app/cardInfo.html?cardId=191"
-          class="apply left btn-appro"></a>
-        <img src="images/index/index_14.jpg">
+          class="apply left" style="top: .79rem;"></a>
+        <img src="images/index/index_04.jpg">
       </div>
       <div class="card-div">
+        <div class="gif-box end-gif">
+
+          <div class="left-gif"><img src="images/gif/gaoda.gif"></div>
+          <div class="right-gif">
+            <div class="hidden-div">
+              <img src="images/gif/gaoda-02.gif" />
+            </div>
+          </div>
+        </div>
+
         <!-- <a href="https://creditcard.bankcomm.com/content/dam/phone/mkt/202001to06AQ_cxy_gd_bz/gaoda.html"
           class="card-link link-right"></a> -->
         <a href="https://creditcardapp.bankcomm.com/applynew/front/apply/online/cardInfo.html?isNewProcess=true&cardCode=137&cardId=194"
-          class="apply right btn-appro"></a>
-        <img src="images/index/index_15.jpg">
-      </div>
-      <div class="card-div">
-        <!-- <a href="https://creditcard.bankcomm.com/content/dam/phone/mkt/202001to06AQ_cxy_gd_bz/bzhan.html"
-          class="card-link link-left"></a> -->
-        <a href="https://creditcardapp.bankcomm.com/applynew/front/apply/online/cardInfo.html?trackCode=&recomId=&saleCode=&cardId=183&cityId=&recomUuid=&memberId="
-          class="apply left btn-appro" style="left: 1.6rem;"></a>
-        <img src="images/index/index_16.jpg">
+          class="apply right" style="top: .64rem;"></a>
+
+        <img src="images/index/index_05.jpg">
       </div>
 
-
-      <img src="images/index/index_17.jpg">
 
     </div>
 
@@ -148,6 +160,12 @@
       //footer固定在页面底部，此方法在公用js文件main.js中
       update_footer();
     })
+  </script>
+  <script>
+    function loadBody() {
+      $("#load-div").hide();
+      $("#wrapper").show();
+    }
   </script>
 
 
